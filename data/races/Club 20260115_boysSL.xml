@@ -1,0 +1,2354 @@
+<?xml version='1.0' ?>
+<ClubRace>
+<Header>
+  <SoftwareVersion>6.06</SoftwareVersion>
+  <DateI>46037</DateI>
+  <RaceType>0</RaceType>
+  <CanoeSL>N</CanoeSL>
+  <RollingDR>N</RollingDR>
+  <USCSA>N</USCSA>
+  <Course1Name>Red</Course1Name>
+  <Course2Name>Blue</Course2Name>
+  <SingleOption>1</SingleOption>
+  <DualOption>1</DualOption>
+  <XCOption>0</XCOption>
+  <RankByClass>0</RankByClass>
+  <Header1>Boys Warrior Alpine Central Lakes Cup</Header1>
+  <Header2>Race 3</Header2>
+  <Header3></Header3>
+  <ClassUsed>Y</ClassUsed>
+  <TeamUsed>Y</TeamUsed>
+  <GenderUsed>N</GenderUsed>
+  <DistanceUsed>N</DistanceUsed>
+  <MemberUsed>N</MemberUsed>
+  <BirthdateUsed>N</BirthdateUsed>
+  <AddressUsed>Y</AddressUsed>
+  <CityUsed>Y</CityUsed>
+  <StateUsed>Y</StateUsed>
+  <ZipUsed>Y</ZipUsed>
+  <CountryUsed>Y</CountryUsed>
+  <EMailUsed>Y</EMailUsed>
+  <AgeUsed>Y</AgeUsed>
+  <Custom1Used>Y</Custom1Used>
+  <Custom2Used>N</Custom2Used>
+  <Custom3Used>N</Custom3Used>
+  <Custom4Used>N</Custom4Used>
+  <Custom5Used>N</Custom5Used>
+  <Custom6Used>N</Custom6Used>
+  <Custom1>Seed</Custom1>
+  <Custom2></Custom2>
+  <Custom3></Custom3>
+  <Custom4></Custom4>
+  <Custom5></Custom5>
+  <Custom6></Custom6>
+  <XCNumIntermediates>0</XCNumIntermediates>
+  <NameFormat>0</NameFormat>
+  <RanksByRun>0</RanksByRun>
+  <TeamScoring>Y</TeamScoring>
+  <TeamScoringMethod>2</TeamScoringMethod>
+  <TeamTotal>Total Time</TeamTotal>
+  <TeamBest>2</TeamBest>
+  <TeamInclude1>N</TeamInclude1>
+  <TeamInclude1Num>1</TeamInclude1Num>
+  <TeamInclude1Option>begins with</TeamInclude1Option>
+  <TeamInclude1Match></TeamInclude1Match>
+  <TeamInclude2>N</TeamInclude2>
+  <TeamInclude2Num>1</TeamInclude2Num>
+  <TeamInclude2Option>begins with</TeamInclude2Option>
+  <TeamInclude2Match></TeamInclude2Match>
+  <USCSARaceCode>5124</USCSARaceCode>
+  <USCSARaceType>SL</USCSARaceType>
+  <RTSendRace>Y</RTSendRace>
+  <RTRaceID>298407</RTRaceID>
+  <RTSuspendSending>N</RTSuspendSending>
+  <RTRaceIDtwo>HknjwoevdogJOVr</RTRaceIDtwo>
+  <LTRaceSent>|hLC=Red|hRC=Blue|hTmC=Team|hCsC=Class~*=H|r=Mount+Ski+Gull|st=2026/01/15+16:00|rn=Boys+Warrior+Alpine+Central+Lakes+Cup|co=USA|pr=MN|rt=Single+Course|fi=Combined+of+2+runs+(first+2+if+more+than+2)|pw=Denny|lg=MSG+Logo3.jpg|rg=BrainerdHS.jpg~</LTRaceSent>
+  <RTCountry>USA</RTCountry>
+  <RTState>Minnesota</RTState>
+  <RTResort>Mount Ski Gull</RTResort>
+  <RTTime>57600</RTTime>
+  <RTLLogo>MSG Logo3.jpg</RTLLogo>
+  <RTRLogo>BrainerdHS.jpg</RTRLogo>
+  <RTTeamColumn>Team</RTTeamColumn>
+  <RTClassColumn>Class</RTClassColumn>
+  <ClubPoints>
+    <P1>1000</P1>
+    <P2>952</P2>
+    <P3>908</P3>
+    <P4>867</P4>
+    <P5>830</P5>
+    <P6>795</P6>
+    <P7>763</P7>
+    <P8>733</P8>
+    <P9>706</P9>
+    <P10>679</P10>
+    <P11>655</P11>
+    <P12>632</P12>
+    <P13>610</P13>
+    <P14>590</P14>
+    <P15>570</P15>
+    <P16>552</P16>
+    <P17>534</P17>
+    <P18>518</P18>
+    <P19>502</P19>
+    <P20>487</P20>
+    <P21>472</P21>
+    <P22>458</P22>
+    <P23>445</P23>
+    <P24>433</P24>
+    <P25>420</P25>
+    <P26>409</P26>
+    <P27>397</P27>
+    <P28>386</P28>
+    <P29>376</P29>
+    <P30>366</P30>
+    <P31>356</P31>
+    <P32>347</P32>
+    <P33>337</P33>
+    <P34>329</P34>
+    <P35>320</P35>
+    <P36>312</P36>
+    <P37>304</P37>
+    <P38>296</P38>
+    <P39>288</P39>
+    <P40>281</P40>
+    <P41>273</P41>
+    <P42>266</P42>
+    <P43>259</P43>
+    <P44>253</P44>
+    <P45>246</P45>
+    <P46>240</P46>
+    <P47>233</P47>
+    <P48>227</P48>
+    <P49>221</P49>
+    <P50>215</P50>
+    <P51>209</P51>
+    <P52>204</P52>
+    <P53>198</P53>
+    <P54>193</P54>
+    <P55>187</P55>
+    <P56>182</P56>
+    <P57>177</P57>
+    <P58>172</P58>
+    <P59>167</P59>
+    <P60>162</P60>
+    <P61>157</P61>
+    <P62>152</P62>
+    <P63>148</P63>
+    <P64>143</P64>
+    <P65>138</P65>
+    <P66>134</P66>
+    <P67>129</P67>
+    <P68>125</P68>
+    <P69>121</P69>
+    <P70>116</P70>
+    <P71>112</P71>
+    <P72>108</P72>
+    <P73>104</P73>
+    <P74>100</P74>
+    <P75>96</P75>
+    <P76>91</P76>
+    <P77>87</P77>
+    <P78>83</P78>
+    <P79>80</P79>
+    <P80>76</P80>
+    <P81>72</P81>
+    <P82>68</P82>
+    <P83>64</P83>
+    <P84>60</P84>
+    <P85>56</P85>
+    <P86>53</P86>
+    <P87>49</P87>
+    <P88>45</P88>
+    <P89>41</P89>
+    <P90>38</P90>
+    <P91>34</P91>
+    <P92>30</P92>
+    <P93>27</P93>
+    <P94>23</P94>
+    <P95>19</P95>
+    <P96>16</P96>
+    <P97>12</P97>
+    <P98>8</P98>
+    <P99>5</P99>
+    <P100>1</P100>
+    <P101></P101>
+    <P102></P102>
+    <P103></P103>
+    <P104></P104>
+    <P105></P105>
+    <P106></P106>
+    <P107></P107>
+    <P108></P108>
+    <P109></P109>
+    <P110></P110>
+    <P111></P111>
+    <P112></P112>
+    <P113></P113>
+    <P114></P114>
+    <P115></P115>
+    <P116></P116>
+    <P117></P117>
+    <P118></P118>
+    <P119></P119>
+    <P120></P120>
+    <P121></P121>
+    <P122></P122>
+    <P123></P123>
+    <P124></P124>
+    <P125></P125>
+    <P126></P126>
+    <P127></P127>
+    <P128></P128>
+    <P129></P129>
+    <P130></P130>
+    <P131></P131>
+    <P132></P132>
+    <P133></P133>
+    <P134></P134>
+    <P135></P135>
+    <P136></P136>
+    <P137></P137>
+    <P138></P138>
+    <P139></P139>
+    <P140></P140>
+    <P141></P141>
+    <P142></P142>
+    <P143></P143>
+    <P144></P144>
+    <P145></P145>
+    <P146></P146>
+    <P147></P147>
+    <P148></P148>
+    <P149></P149>
+    <P150></P150>
+    <P151></P151>
+    <P152></P152>
+    <P153></P153>
+    <P154></P154>
+    <P155></P155>
+    <P156></P156>
+    <P157></P157>
+    <P158></P158>
+    <P159></P159>
+    <P160></P160>
+    <P161></P161>
+    <P162></P162>
+    <P163></P163>
+    <P164></P164>
+    <P165></P165>
+    <P166></P166>
+    <P167></P167>
+    <P168></P168>
+    <P169></P169>
+    <P170></P170>
+    <P171></P171>
+    <P172></P172>
+    <P173></P173>
+    <P174></P174>
+    <P175></P175>
+    <P176></P176>
+    <P177></P177>
+    <P178></P178>
+    <P179></P179>
+    <P180></P180>
+    <P181></P181>
+    <P182></P182>
+    <P183></P183>
+    <P184></P184>
+    <P185></P185>
+    <P186></P186>
+    <P187></P187>
+    <P188></P188>
+    <P189></P189>
+    <P190></P190>
+    <P191></P191>
+    <P192></P192>
+    <P193></P193>
+    <P194></P194>
+    <P195></P195>
+    <P196></P196>
+    <P197></P197>
+    <P198></P198>
+    <P199></P199>
+    <P200></P200>
+  </ClubPoints>
+  <Intermediates>
+  </Intermediates>
+</Header>
+<Comp>
+  <Bib>101</Bib>
+  <LastName>Noskowiak</LastName>
+  <FirstName>Ezra</FirstName>
+  <Class>JV</Class>
+  <Team>Brainerd</Team>
+  <Custom1>12</Custom1>
+  <LTSent>*=C|I=xtLoR|b=101|n=Ezra+Noskowiak|c=JV|t=Brainerd|L=0|</LTSent>
+  <LTRSent>*=R|I=xtLoR|r=0=29.24|r=0=27.10|f=56.34</LTRSent>
+  <LTID>xtLoR</LTID>
+  <Time>
+    <Course>0</Course>
+    <Result>29.24</Result>
+    <Status>1</Status>
+    <Start>61382898</Start>
+    <Finish>61412138</Finish>
+    <SystemStart>61384929</SystemStart>
+  </Time>
+  <Time>
+    <Course>0</Course>
+    <Result>27.10</Result>
+    <Status>1</Status>
+    <Start>63860760</Start>
+    <Finish>63887861</Finish>
+    <SystemStart>63858708</SystemStart>
+  </Time>
+</Comp>
+<Comp>
+  <Bib>104</Bib>
+  <LastName>Pape</LastName>
+  <FirstName>Alex</FirstName>
+  <Class>JV</Class>
+  <Team>Brainerd</Team>
+  <Custom1>13</Custom1>
+  <LTSent>*=C|I=RmBka|b=104|n=Alex+Pape|c=JV|t=Brainerd|L=0|</LTSent>
+  <LTRSent>*=R|I=RmBka|r=0=29.66|r=0=28.19|f=57.85</LTRSent>
+  <LTID>RmBka</LTID>
+  <Time>
+    <Course>0</Course>
+    <Result>29.66</Result>
+    <Status>1</Status>
+    <Start>61499551</Start>
+    <Finish>61529214</Finish>
+    <SystemStart>61500182</SystemStart>
+  </Time>
+  <Time>
+    <Course>0</Course>
+    <Result>28.19</Result>
+    <Status>1</Status>
+    <Start>63967564</Start>
+    <Finish>63995761</Finish>
+    <SystemStart>63965516</SystemStart>
+  </Time>
+</Comp>
+<Comp>
+  <Bib>98</Bib>
+  <LastName>Sibbert</LastName>
+  <FirstName>Ari</FirstName>
+  <Class>JV</Class>
+  <Team>Brainerd</Team>
+  <Custom1>11</Custom1>
+  <LTSent>*=C|I=kJPQM|b=98|n=Ari+Sibbert|c=JV|t=Brainerd|L=0|</LTSent>
+  <LTRSent>*=R|I=kJPQM|r=0=31.32|r=0=27.41|f=58.73</LTRSent>
+  <LTID>kJPQM</LTID>
+  <Time>
+    <Course>0</Course>
+    <Result>31.32</Result>
+    <Status>1</Status>
+    <Start>61248830</Start>
+    <Finish>61280153</Finish>
+    <SystemStart>61249434</SystemStart>
+  </Time>
+  <Time>
+    <Course>0</Course>
+    <Result>27.41</Result>
+    <Status>1</Status>
+    <Start>63758435</Start>
+    <Finish>63785851</Finish>
+    <SystemStart>63756410</SystemStart>
+  </Time>
+</Comp>
+<Comp>
+  <Bib>112</Bib>
+  <LastName>Krafthefer</LastName>
+  <FirstName>Will</FirstName>
+  <Class>JV</Class>
+  <Team>Lakes Area</Team>
+  <Custom1>17</Custom1>
+  <LTSent>*=C|I=XLEVF|b=112|n=Will+Krafthefer|c=JV|t=Lakes+Area|L=0|</LTSent>
+  <LTRSent>*=R|I=XLEVF|r=0=36.53|r=0=25.96|f=1:02.49</LTRSent>
+  <LTID>XLEVF</LTID>
+  <Time>
+    <Course>0</Course>
+    <Result>36.53</Result>
+    <Status>1</Status>
+    <Start>61786133</Start>
+    <Finish>61822664</Finish>
+    <SystemStart>61788873</SystemStart>
+  </Time>
+  <Time>
+    <Course>0</Course>
+    <Result>25.96</Result>
+    <Status>1</Status>
+    <Start>64205222</Start>
+    <Finish>64231185</Finish>
+    <SystemStart>64203175</SystemStart>
+  </Time>
+</Comp>
+<Comp>
+  <Bib>95</Bib>
+  <LastName>Ruttger</LastName>
+  <FirstName>Charlie </FirstName>
+  <Class>JV</Class>
+  <Team>Brainerd</Team>
+  <Custom1>10</Custom1>
+  <LTSent>*=C|I=oGTYY|b=95|n=Charlie++Ruttger|c=JV|t=Brainerd|L=0|</LTSent>
+  <LTRSent>*=R|I=oGTYY|r=0=34.49|r=0=30.08|f=1:04.57</LTRSent>
+  <LTID>oGTYY</LTID>
+  <Time>
+    <Course>0</Course>
+    <Result>34.49</Result>
+    <Status>1</Status>
+    <Start>61142732</Start>
+    <Finish>61177228</Finish>
+    <SystemStart>61147344</SystemStart>
+  </Time>
+  <Time>
+    <Course>0</Course>
+    <Result>30.08</Result>
+    <Status>1</Status>
+    <Start>63663469</Start>
+    <Finish>63693555</Finish>
+    <SystemStart>63661405</SystemStart>
+  </Time>
+</Comp>
+<Comp>
+  <Bib>93</Bib>
+  <LastName>Bristlin</LastName>
+  <FirstName>Rhys</FirstName>
+  <Class>JV</Class>
+  <Team>Detroit Lakes</Team>
+  <Custom1>10</Custom1>
+  <LTSent>*=C|I=ocHtG|b=93|n=Rhys+Bristlin|c=JV|t=Detroit+Lakes|L=0|</LTSent>
+  <LTRSent>*=R|I=ocHtG|r=0=34.16|r=0=32.35|f=1:06.51</LTRSent>
+  <LTID>ocHtG</LTID>
+  <Time>
+    <Course>0</Course>
+    <Result>34.16</Result>
+    <Status>1</Status>
+    <Start>61078101</Start>
+    <Finish>61112264</Finish>
+    <SystemStart>61078726</SystemStart>
+  </Time>
+  <Time>
+    <Course>0</Course>
+    <Result>32.35</Result>
+    <Status>1</Status>
+    <Start>63589368</Start>
+    <Finish>63621719</Finish>
+    <SystemStart>63587300</SystemStart>
+  </Time>
+</Comp>
+<Comp>
+  <Bib>91</Bib>
+  <LastName>Virnig</LastName>
+  <FirstName>Gabe</FirstName>
+  <Class>JV</Class>
+  <Team>Lakes Area</Team>
+  <Custom1>9</Custom1>
+  <LTSent>*=C|I=IfgEW|b=91|n=Gabe+Virnig|c=JV|t=Lakes+Area|L=0|</LTSent>
+  <LTRSent>*=R|I=IfgEW|r=0=35.69|r=0=31.03|f=1:06.72</LTRSent>
+  <LTID>IfgEW</LTID>
+  <Time>
+    <Course>0</Course>
+    <Result>35.69</Result>
+    <Status>1</Status>
+    <Start>61013160</Start>
+    <Finish>61048858</Finish>
+    <SystemStart>61013773</SystemStart>
+  </Time>
+  <Time>
+    <Course>0</Course>
+    <Result>31.03</Result>
+    <Status>1</Status>
+    <Start>63531008</Start>
+    <Finish>63562043</Finish>
+    <SystemStart>63528935</SystemStart>
+  </Time>
+</Comp>
+<Comp>
+  <Bib>94</Bib>
+  <LastName>Amundson</LastName>
+  <FirstName>Caden</FirstName>
+  <Class>JV</Class>
+  <Team>Lakes Area</Team>
+  <Custom1>10</Custom1>
+  <LTSent>*=C|I=tvduZ|b=94|n=Caden+Amundson|c=JV|t=Lakes+Area|L=0|</LTSent>
+  <LTRSent>*=R|I=tvduZ|r=0=32.18|r=0=35.99|f=1:08.17</LTRSent>
+  <LTID>tvduZ</LTID>
+  <Time>
+    <Course>0</Course>
+    <Result>32.18</Result>
+    <Status>1</Status>
+    <Start>61110445</Start>
+    <Finish>61142633</Finish>
+    <SystemStart>61111054</SystemStart>
+  </Time>
+  <Time>
+    <Course>0</Course>
+    <Result>35.99</Result>
+    <Status>1</Status>
+    <Start>63626627</Start>
+    <Finish>63662620</Finish>
+    <SystemStart>63624544</SystemStart>
+  </Time>
+</Comp>
+<Comp>
+  <Bib>100</Bib>
+  <LastName>Schlosser</LastName>
+  <FirstName>Beau</FirstName>
+  <Class>JV</Class>
+  <Team>Lakes Area</Team>
+  <Custom1>12</Custom1>
+  <LTSent>*=C|I=KBCTc|b=100|n=Beau+Schlosser|c=JV|t=Lakes+Area|L=0|</LTSent>
+  <LTRSent>*=R|I=KBCTc|r=0=36.42|r=0=34.92|f=1:11.34</LTRSent>
+  <LTID>KBCTc</LTID>
+  <Time>
+    <Course>0</Course>
+    <Result>36.42</Result>
+    <Status>1</Status>
+    <Start>61343783</Start>
+    <Finish>61380207</Finish>
+    <SystemStart>61344401</SystemStart>
+  </Time>
+  <Time>
+    <Course>0</Course>
+    <Result>34.92</Result>
+    <Status>1</Status>
+    <Start>63827400</Start>
+    <Finish>63862326</Finish>
+    <SystemStart>63825366</SystemStart>
+  </Time>
+</Comp>
+<Comp>
+  <Bib>96</Bib>
+  <LastName>Anderson</LastName>
+  <FirstName>Thomas</FirstName>
+  <Class>JV</Class>
+  <Team>Detroit Lakes</Team>
+  <Custom1>11</Custom1>
+  <LTSent>*=C|I=aOwGJ|b=96|n=Thomas+Anderson|c=JV|t=Detroit+Lakes|L=0|</LTSent>
+  <LTRSent>*=R|I=aOwGJ|r=0=37.88|r=0=35.37|f=1:13.25</LTRSent>
+  <LTID>aOwGJ</LTID>
+  <Time>
+    <Course>0</Course>
+    <Result>37.88</Result>
+    <Status>1</Status>
+    <Start>61175452</Start>
+    <Finish>61213335</Finish>
+    <SystemStart>61176065</SystemStart>
+  </Time>
+  <Time>
+    <Course>0</Course>
+    <Result>35.37</Result>
+    <Status>1</Status>
+    <Start>63693638</Start>
+    <Finish>63729008</Finish>
+    <SystemStart>63691596</SystemStart>
+  </Time>
+</Comp>
+<Comp>
+  <Bib>97</Bib>
+  <LastName>Virnig</LastName>
+  <FirstName>Grahm</FirstName>
+  <Class>JV</Class>
+  <Team>Lakes Area</Team>
+  <Custom1>11</Custom1>
+  <LTSent>*=C|I=iKsXu|b=97|n=Grahm+Virnig|c=JV|t=Lakes+Area|L=0|</LTSent>
+  <LTRSent>*=R|I=iKsXu|r=0=41.00|r=0=33.07|f=1:14.07</LTRSent>
+  <LTID>iKsXu</LTID>
+  <Time>
+    <Course>0</Course>
+    <Result>41.00</Result>
+    <Status>1</Status>
+    <Start>61211076</Start>
+    <Finish>61252083</Finish>
+    <SystemStart>61211689</SystemStart>
+  </Time>
+  <Time>
+    <Course>0</Course>
+    <Result>33.07</Result>
+    <Status>1</Status>
+    <Start>63728520</Start>
+    <Finish>63761598</Finish>
+    <SystemStart>63726459</SystemStart>
+  </Time>
+</Comp>
+<Comp>
+  <Bib>103</Bib>
+  <LastName>Bedford</LastName>
+  <FirstName>Harrison</FirstName>
+  <Class>JV</Class>
+  <Team>Lakes Area</Team>
+  <Custom1>13</Custom1>
+  <LTSent>*=C|I=zxEBD|b=103|n=Harrison+Bedford|c=JV|t=Lakes+Area|L=0|</LTSent>
+  <LTRSent>*=R|I=zxEBD|r=0=39.72|r=0=35.81|f=1:15.53</LTRSent>
+  <LTID>zxEBD</LTID>
+  <Time>
+    <Course>0</Course>
+    <Result>39.72</Result>
+    <Status>1</Status>
+    <Start>61453129</Start>
+    <Finish>61492851</Finish>
+    <SystemStart>61453747</SystemStart>
+  </Time>
+  <Time>
+    <Course>0</Course>
+    <Result>35.81</Result>
+    <Status>1</Status>
+    <Start>63935497</Start>
+    <Finish>63971313</Finish>
+    <SystemStart>63933461</SystemStart>
+  </Time>
+</Comp>
+<Comp>
+  <Bib>109</Bib>
+  <LastName>Rustad</LastName>
+  <FirstName>Markus</FirstName>
+  <Class>JV</Class>
+  <Team>Brainerd</Team>
+  <Custom1>15</Custom1>
+  <LTSent>*=C|I=UdxkG|b=109|n=Markus+Rustad|c=JV|t=Brainerd|L=0|</LTSent>
+  <LTRSent>*=R|I=UdxkG|r=0=45.79|r=0=33.67|f=1:19.46</LTRSent>
+  <LTID>UdxkG</LTID>
+  <Time>
+    <Course>0</Course>
+    <Result>45.79</Result>
+    <Status>1</Status>
+    <Start>61648505</Start>
+    <Finish>61694304</Finish>
+    <SystemStart>61649105</SystemStart>
+  </Time>
+  <Time>
+    <Course>0</Course>
+    <Result>33.67</Result>
+    <Status>1</Status>
+    <Start>64099883</Start>
+    <Finish>64133559</Finish>
+    <SystemStart>64097815</SystemStart>
+  </Time>
+</Comp>
+<Comp>
+  <Bib>106</Bib>
+  <LastName>Gasser</LastName>
+  <FirstName>Jace</FirstName>
+  <Class>JV</Class>
+  <Team>Lakes Area</Team>
+  <Custom1>14</Custom1>
+  <LTSent>*=C|I=toIRx|b=106|n=Jace+Gasser|c=JV|t=Lakes+Area|L=0|</LTSent>
+  <LTRSent>*=R|I=toIRx|r=0=44.55|r=0=40.63|f=1:25.18</LTRSent>
+  <LTID>toIRx</LTID>
+  <Time>
+    <Course>0</Course>
+    <Result>44.55</Result>
+    <Status>1</Status>
+    <Start>61563366</Start>
+    <Finish>61607925</Finish>
+    <SystemStart>61563970</SystemStart>
+  </Time>
+  <Time>
+    <Course>0</Course>
+    <Result>40.63</Result>
+    <Status>1</Status>
+    <Start>64033959</Start>
+    <Finish>64074589</Finish>
+    <SystemStart>64031906</SystemStart>
+  </Time>
+</Comp>
+<Comp>
+  <Bib>110</Bib>
+  <LastName>Maasjo</LastName>
+  <FirstName>Logan</FirstName>
+  <Class>JV</Class>
+  <Team>Lakes Area</Team>
+  <Custom1>16</Custom1>
+  <LTSent>*=C|I=ouGRR|b=110|n=Logan+Maasjo|c=JV|t=Lakes+Area|L=0|</LTSent>
+  <LTRSent>*=R|I=ouGRR|r=0=44.35|r=0=40.93|f=1:25.28</LTRSent>
+  <LTID>ouGRR</LTID>
+  <Time>
+    <Course>0</Course>
+    <Result>44.35</Result>
+    <Status>1</Status>
+    <Start>61692170</Start>
+    <Finish>61736528</Finish>
+    <SystemStart>61692771</SystemStart>
+  </Time>
+  <Time>
+    <Course>0</Course>
+    <Result>40.93</Result>
+    <Status>1</Status>
+    <Start>64133449</Start>
+    <Finish>64174387</Finish>
+    <SystemStart>64131409</SystemStart>
+  </Time>
+</Comp>
+<Comp>
+  <Bib>105</Bib>
+  <LastName>Hulke</LastName>
+  <FirstName>Reid</FirstName>
+  <Class>JV</Class>
+  <Team>Detroit Lakes</Team>
+  <Custom1>14</Custom1>
+  <LTSent>*=C|I=auyYH|b=105|n=Reid+Hulke|c=JV|t=Detroit+Lakes|L=0|</LTSent>
+  <LTRSent>*=R|I=auyYH|r=0=45.93|r=0=41.44|f=1:27.37</LTRSent>
+  <LTID>auyYH</LTID>
+  <Time>
+    <Course>0</Course>
+    <Result>45.93</Result>
+    <Status>1</Status>
+    <Start>61525358</Start>
+    <Finish>61571292</Finish>
+    <SystemStart>61525975</SystemStart>
+  </Time>
+  <Time>
+    <Course>0</Course>
+    <Result>41.44</Result>
+    <Status>1</Status>
+    <Start>63998129</Start>
+    <Finish>64039578</Finish>
+    <SystemStart>63996055</SystemStart>
+  </Time>
+</Comp>
+<Comp>
+  <Bib>102</Bib>
+  <LastName>Schroeder</LastName>
+  <FirstName>Carson</FirstName>
+  <Class>JV</Class>
+  <Team>Detroit Lakes</Team>
+  <Custom1>13</Custom1>
+  <LTSent>*=C|I=TyvmX|b=102|n=Carson+Schroeder|c=JV|t=Detroit+Lakes|L=0|</LTSent>
+  <LTRSent>*=R|I=TyvmX|r=0=40.25|r=0=51.90|f=1:32.15</LTRSent>
+  <LTID>TyvmX</LTID>
+  <Time>
+    <Course>0</Course>
+    <Result>40.25</Result>
+    <Status>1</Status>
+    <Start>61415770</Start>
+    <Finish>61456025</Finish>
+    <SystemStart>61416844</SystemStart>
+  </Time>
+  <Time>
+    <Course>0</Course>
+    <Result>51.90</Result>
+    <Status>1</Status>
+    <Start>63889329</Start>
+    <Finish>63941237</Finish>
+    <SystemStart>63887264</SystemStart>
+  </Time>
+</Comp>
+<Comp>
+  <Bib>99</Bib>
+  <LastName>Grosz</LastName>
+  <FirstName>Logan</FirstName>
+  <Class>JV</Class>
+  <Team>Detroit Lakes</Team>
+  <Custom1>12</Custom1>
+  <LTSent>*=C|I=WBsZO|b=99|n=Logan+Grosz|c=JV|t=Detroit+Lakes|L=0|</LTSent>
+  <LTRSent>*=R|I=WBsZO|r=0=1:11.70|r=0=35.47|f=1:47.17</LTRSent>
+  <LTID>WBsZO</LTID>
+  <Time>
+    <Course>0</Course>
+    <Result>1:11.70</Result>
+    <Status>1</Status>
+    <Start>61277622</Start>
+    <Finish>61349331</Finish>
+    <SystemStart>61278244</SystemStart>
+  </Time>
+  <Time>
+    <Course>0</Course>
+    <Result>35.47</Result>
+    <Status>1</Status>
+    <Start>63784603</Start>
+    <Finish>63820074</Finish>
+    <SystemStart>63782557</SystemStart>
+  </Time>
+</Comp>
+<Comp>
+  <Bib>92</Bib>
+  <LastName>Meyer</LastName>
+  <FirstName>Quinnton</FirstName>
+  <Class>JV</Class>
+  <Team>Brainerd</Team>
+  <Custom1>9</Custom1>
+  <LTSent>*=C|I=rDsqB|b=92|n=Quinnton+Meyer|c=JV|t=Brainerd|L=0|</LTSent>
+  <LTRSent>*=R|I=rDsqB|r=0=50.85|r=0=56.38|f=1:47.23</LTRSent>
+  <LTID>rDsqB</LTID>
+  <Time>
+    <Course>0</Course>
+    <Result>50.85</Result>
+    <Status>1</Status>
+    <Start>61045865</Start>
+    <Finish>61096719</Finish>
+    <SystemStart>61046464</SystemStart>
+  </Time>
+  <Time>
+    <Course>0</Course>
+    <Result>56.38</Result>
+    <Status>1</Status>
+    <Start>63560028</Start>
+    <Finish>63616416</Finish>
+    <SystemStart>63557953</SystemStart>
+  </Time>
+</Comp>
+<Comp>
+  <Bib>107</Bib>
+  <LastName>Moen</LastName>
+  <FirstName>Avery</FirstName>
+  <Class>JV</Class>
+  <Team>Brainerd</Team>
+  <Custom1>14</Custom1>
+  <LTSent>*=C|I=aEbzZ|b=107|n=Avery+Moen|c=JV|t=Brainerd|L=0|</LTSent>
+  <LTRSent>*=R|I=aEbzZ|r=0=DSQ|r=0=32.05|f=</LTRSent>
+  <LTID>aEbzZ</LTID>
+  <Time>
+    <Course>0</Course>
+    <Result>DSQ</Result>
+    <Status>4</Status>
+    <Start>61599251</Start>
+    <Finish>61633214</Finish>
+    <SystemStart>61599863</SystemStart>
+  </Time>
+  <Time>
+    <Course>0</Course>
+    <Result>32.05</Result>
+    <Status>1</Status>
+    <Start>64068336</Start>
+    <Finish>64100388</Finish>
+    <SystemStart>64066262</SystemStart>
+  </Time>
+</Comp>
+<Comp>
+  <Bib>111</Bib>
+  <LastName>Anderson</LastName>
+  <FirstName>Jude</FirstName>
+  <Class>JV</Class>
+  <Team>Brainerd</Team>
+  <Custom1>16</Custom1>
+  <LTSent>*=C|I=GhNIz|b=111|n=Jude+Anderson|c=JV|t=Brainerd|L=0|</LTSent>
+  <LTRSent>*=R|I=GhNIz|r=0=DSQ|r=0=44.61|f=</LTRSent>
+  <LTID>GhNIz</LTID>
+  <Time>
+    <Course>0</Course>
+    <Result>DSQ</Result>
+    <Status>4</Status>
+    <Start>61732528</Start>
+    <Finish>61784172</Finish>
+    <SystemStart>61733140</SystemStart>
+  </Time>
+  <Time>
+    <Course>0</Course>
+    <Result>44.61</Result>
+    <Status>1</Status>
+    <Start>64166881</Start>
+    <Finish>64211497</Finish>
+    <SystemStart>64164818</SystemStart>
+  </Time>
+</Comp>
+<Comp>
+  <Bib>108</Bib>
+  <LastName>Galarneau</LastName>
+  <FirstName>Gauge</FirstName>
+  <Class>JV</Class>
+  <Team>Lakes Area</Team>
+  <Custom1>15</Custom1>
+  <LTSent>*=C|I=TeVeW|b=108|n=Gauge+Galarneau|c=JV|t=Lakes+Area|L=0|</LTSent>
+  <LTRSent>*=R|I=TeVeW|r=0=DNS|f=</LTRSent>
+  <LTID>TeVeW</LTID>
+  <Time>
+    <Course>0</Course>
+    <Result>DNS</Result>
+    <Status>3</Status>
+    <SystemStart>0</SystemStart>
+  </Time>
+</Comp>
+<Comp>
+  <Bib>59</Bib>
+  <LastName>Sampson</LastName>
+  <FirstName>Reef</FirstName>
+  <Class>V</Class>
+  <Team>Brainerd</Team>
+  <Custom1>2</Custom1>
+  <LTSent>*=C|I=YMWMX|b=59|n=Reef+Sampson|c=V|t=Brainerd|L=0|</LTSent>
+  <LTRSent>*=R|I=YMWMX|r=0=24.13|r=0=22.04|f=46.17</LTRSent>
+  <LTID>YMWMX</LTID>
+  <Time>
+    <Course>0</Course>
+    <Result>24.13</Result>
+    <Status>1</Status>
+    <Start>59811082</Start>
+    <Finish>59835221</Finish>
+    <SystemStart>59811674</SystemStart>
+  </Time>
+  <Time>
+    <Course>0</Course>
+    <Result>22.04</Result>
+    <Status>1</Status>
+    <Start>62460591</Start>
+    <Finish>62482635</Finish>
+    <SystemStart>62458518</SystemStart>
+  </Time>
+</Comp>
+<Comp>
+  <Bib>69</Bib>
+  <LastName>Spartz</LastName>
+  <FirstName>Max</FirstName>
+  <Class>V</Class>
+  <Team>Brainerd</Team>
+  <Custom1>4</Custom1>
+  <LTSent>*=C|I=WUHhH|b=69|n=Max+Spartz|c=V|t=Brainerd|L=0|</LTSent>
+  <LTRSent>*=R|I=WUHhH|r=0=24.86|r=0=23.06|f=47.92</LTRSent>
+  <LTID>WUHhH</LTID>
+  <Time>
+    <Course>0</Course>
+    <Result>24.86</Result>
+    <Status>1</Status>
+    <Start>60171506</Start>
+    <Finish>60196370</Finish>
+    <SystemStart>60173463</SystemStart>
+  </Time>
+  <Time>
+    <Course>0</Course>
+    <Result>23.06</Result>
+    <Status>1</Status>
+    <Start>62809718</Start>
+    <Finish>62832780</Finish>
+    <SystemStart>62807615</SystemStart>
+  </Time>
+</Comp>
+<Comp>
+  <Bib>74</Bib>
+  <LastName>Thuringer</LastName>
+  <FirstName>Beau</FirstName>
+  <Class>V</Class>
+  <Team>Brainerd</Team>
+  <Custom1>5</Custom1>
+  <LTSent>*=C|I=Xodyw|b=74|n=Beau+Thuringer|c=V|t=Brainerd|L=0|</LTSent>
+  <LTRSent>*=R|I=Xodyw|r=0=26.96|r=0=24.62|f=51.58</LTRSent>
+  <LTID>Xodyw</LTID>
+  <Time>
+    <Course>0</Course>
+    <Result>26.96</Result>
+    <Status>1</Status>
+    <Start>60363383</Start>
+    <Finish>60390345</Finish>
+    <SystemStart>60364549</SystemStart>
+  </Time>
+  <Time>
+    <Course>0</Course>
+    <Result>24.62</Result>
+    <Status>1</Status>
+    <Start>62967393</Start>
+    <Finish>62992020</Finish>
+    <SystemStart>62965323</SystemStart>
+  </Time>
+</Comp>
+<Comp>
+  <Bib>54</Bib>
+  <LastName>Halbur</LastName>
+  <FirstName>Jacob</FirstName>
+  <Class>V</Class>
+  <Team>Brainerd</Team>
+  <Custom1>1</Custom1>
+  <LTSent>*=C|I=pfVyr|b=54|n=Jacob+Halbur|c=V|t=Brainerd|L=0|</LTSent>
+  <LTRSent>*=R|I=pfVyr|r=0=33.94|r=0=27.84|f=1:01.78</LTRSent>
+  <LTID>pfVyr</LTID>
+  <Time>
+    <Course>0</Course>
+    <Result>33.94</Result>
+    <Status>1</Status>
+    <Start>59502753</Start>
+    <Finish>59536695</Finish>
+    <SystemStart>59503329</SystemStart>
+  </Time>
+  <Time>
+    <Course>0</Course>
+    <Result>27.84</Result>
+    <Status>1</Status>
+    <Start>62295589</Start>
+    <Finish>62323429</Finish>
+    <SystemStart>62293507</SystemStart>
+  </Time>
+</Comp>
+<Comp>
+  <Bib>84</Bib>
+  <LastName>Esser</LastName>
+  <FirstName>Camden</FirstName>
+  <Class>V</Class>
+  <Team>Brainerd</Team>
+  <Custom1>7</Custom1>
+  <LTSent>*=C|I=AYpyR|b=84|n=Camden+Esser|c=V|t=Brainerd|L=0|</LTSent>
+  <LTRSent>*=R|I=AYpyR|r=0=43.20|r=0=26.70|f=1:09.90</LTRSent>
+  <LTID>AYpyR</LTID>
+  <Time>
+    <Course>0</Course>
+    <Result>43.20</Result>
+    <Status>1</Status>
+    <Start>60815674</Start>
+    <Finish>60858878</Finish>
+    <SystemStart>60819018</SystemStart>
+  </Time>
+  <Time>
+    <Course>0</Course>
+    <Result>26.70</Result>
+    <Status>1</Status>
+    <Start>63347882</Start>
+    <Finish>63374590</Finish>
+    <SystemStart>63345844</SystemStart>
+  </Time>
+</Comp>
+<Comp>
+  <Bib>79</Bib>
+  <LastName>Hiebert</LastName>
+  <FirstName>Ethan </FirstName>
+  <Class>V</Class>
+  <Team>Brainerd</Team>
+  <Custom1>6</Custom1>
+  <LTSent>*=C|I=jTdGA|b=79|n=Ethan++Hiebert|c=V|t=Brainerd|L=0|</LTSent>
+  <LTRSent>*=R|I=jTdGA|r=0=24.04|r=0=50.63|f=1:14.67</LTRSent>
+  <LTID>jTdGA</LTID>
+  <Time>
+    <Course>0</Course>
+    <Result>24.04</Result>
+    <Status>1</Status>
+    <Start>60596010</Start>
+    <Finish>60620056</Finish>
+    <SystemStart>60596619</SystemStart>
+  </Time>
+  <Time>
+    <Course>0</Course>
+    <Result>50.63</Result>
+    <Status>1</Status>
+    <Start>63142359</Start>
+    <Finish>63192991</Finish>
+    <SystemStart>63140292</SystemStart>
+  </Time>
+</Comp>
+<Comp>
+  <Bib>89</Bib>
+  <LastName>Anderson</LastName>
+  <FirstName>Jace</FirstName>
+  <Class>V</Class>
+  <Team>Brainerd</Team>
+  <Custom1>8</Custom1>
+  <LTSent>*=C|I=LtEqu|b=89|n=Jace+Anderson|c=V|t=Brainerd|L=0|</LTSent>
+  <LTRSent>*=R|I=LtEqu|r=0=41.87|r=0=33.99|f=1:15.86</LTRSent>
+  <LTID>LtEqu</LTID>
+  <Time>
+    <Course>0</Course>
+    <Result>41.87</Result>
+    <Status>1</Status>
+    <Start>60965712</Start>
+    <Finish>61007591</Finish>
+    <SystemStart>60966318</SystemStart>
+  </Time>
+  <Time>
+    <Course>0</Course>
+    <Result>33.99</Result>
+    <Status>1</Status>
+    <Start>63490171</Start>
+    <Finish>63524161</Finish>
+    <SystemStart>63488092</SystemStart>
+  </Time>
+</Comp>
+<Comp>
+  <Bib>64</Bib>
+  <LastName>Brekken</LastName>
+  <FirstName>Hudson</FirstName>
+  <Class>V</Class>
+  <Team>Brainerd</Team>
+  <Custom1>3</Custom1>
+  <LTSent>*=C|I=zUYcZ|b=64|n=Hudson+Brekken|c=V|t=Brainerd|L=0|</LTSent>
+  <LTRSent>*=R|I=zUYcZ|r=0=DSQ|r=0=23.18|f=</LTRSent>
+  <LTID>zUYcZ</LTID>
+  <Time>
+    <Course>0</Course>
+    <Result>DSQ</Result>
+    <Status>4</Status>
+    <Start>60390703</Start>
+    <Finish>60415508</Finish>
+    <SystemStart>60395037</SystemStart>
+  </Time>
+  <Time>
+    <Course>0</Course>
+    <Result>23.18</Result>
+    <Status>1</Status>
+    <Start>62614731</Start>
+    <Finish>62637919</Finish>
+    <SystemStart>62612673</SystemStart>
+  </Time>
+</Comp>
+<Comp>
+  <Bib>63</Bib>
+  <LastName>Young</LastName>
+  <FirstName>Billy</FirstName>
+  <Class>V</Class>
+  <Team>Lakes Area</Team>
+  <Custom1>3</Custom1>
+  <LTSent>*=C|I=ikQue|b=63|n=Billy+Young|c=V|t=Lakes+Area|L=0|</LTSent>
+  <LTRSent>*=R|I=ikQue|r=0=23.35|r=0=22.64|f=45.99</LTRSent>
+  <LTID>ikQue</LTID>
+  <Time>
+    <Course>0</Course>
+    <Result>23.35</Result>
+    <Status>1</Status>
+    <Start>59941759</Start>
+    <Finish>59965113</Finish>
+    <SystemStart>59942359</SystemStart>
+  </Time>
+  <Time>
+    <Course>0</Course>
+    <Result>22.64</Result>
+    <Status>1</Status>
+    <Start>62591513</Start>
+    <Finish>62614159</Finish>
+    <SystemStart>62589470</SystemStart>
+  </Time>
+</Comp>
+<Comp>
+  <Bib>68</Bib>
+  <LastName>Doscher</LastName>
+  <FirstName>Jack</FirstName>
+  <Class>V</Class>
+  <Team>Lakes Area</Team>
+  <Custom1>4</Custom1>
+  <LTSent>*=C|I=toysh|b=68|n=Jack+Doscher|c=V|t=Lakes+Area|L=0|</LTSent>
+  <LTRSent>*=R|I=toysh|r=0=25.05|r=0=23.22|f=48.27</LTRSent>
+  <LTID>toysh</LTID>
+  <Time>
+    <Course>0</Course>
+    <Result>25.05</Result>
+    <Status>1</Status>
+    <Start>60143704</Start>
+    <Finish>60168761</Finish>
+    <SystemStart>60146994</SystemStart>
+  </Time>
+  <Time>
+    <Course>0</Course>
+    <Result>23.22</Result>
+    <Status>1</Status>
+    <Start>62784344</Start>
+    <Finish>62807571</Finish>
+    <SystemStart>62782277</SystemStart>
+  </Time>
+</Comp>
+<Comp>
+  <Bib>78</Bib>
+  <LastName>Vanderweyst</LastName>
+  <FirstName>Jackson</FirstName>
+  <Class>V</Class>
+  <Team>Lakes Area</Team>
+  <Custom1>6</Custom1>
+  <LTSent>*=C|I=xQctn|b=78|n=Jackson+Vanderweyst|c=V|t=Lakes+Area|L=0|</LTSent>
+  <LTRSent>*=R|I=xQctn|r=0=33.11|r=0=25.98|f=59.09</LTRSent>
+  <LTID>xQctn</LTID>
+  <Time>
+    <Course>0</Course>
+    <Result>33.11</Result>
+    <Status>1</Status>
+    <Start>60558352</Start>
+    <Finish>60591471</Finish>
+    <SystemStart>60558976</SystemStart>
+  </Time>
+  <Time>
+    <Course>0</Course>
+    <Result>25.98</Result>
+    <Status>1</Status>
+    <Start>63113767</Start>
+    <Finish>63139756</Finish>
+    <SystemStart>63111681</SystemStart>
+  </Time>
+</Comp>
+<Comp>
+  <Bib>53</Bib>
+  <LastName>Guse</LastName>
+  <FirstName>Clayton</FirstName>
+  <Class>V</Class>
+  <Team>Lakes Area</Team>
+  <Custom1>1</Custom1>
+  <LTSent>*=C|I=stFZD|b=53|n=Clayton+Guse|c=V|t=Lakes+Area|L=0|</LTSent>
+  <LTRSent>*=R|I=stFZD|r=0=31.12|r=0=28.94|f=1:00.06</LTRSent>
+  <LTID>stFZD</LTID>
+  <Time>
+    <Course>0</Course>
+    <Result>31.12</Result>
+    <Status>1</Status>
+    <Start>59471771</Start>
+    <Finish>59502899</Finish>
+    <SystemStart>59472351</SystemStart>
+  </Time>
+  <Time>
+    <Course>0</Course>
+    <Result>28.94</Result>
+    <Status>1</Status>
+    <Start>62266357</Start>
+    <Finish>62295302</Finish>
+    <SystemStart>62264247</SystemStart>
+  </Time>
+</Comp>
+<Comp>
+  <Bib>88</Bib>
+  <LastName>Brunkow</LastName>
+  <FirstName>Nathan</FirstName>
+  <Class>V</Class>
+  <Team>Lakes Area</Team>
+  <Custom1>8</Custom1>
+  <LTSent>*=C|I=KxLKE|b=88|n=Nathan+Brunkow|c=V|t=Lakes+Area|L=0|</LTSent>
+  <LTRSent>*=R|I=KxLKE|r=0=33.55|r=0=30.09|f=1:03.64</LTRSent>
+  <LTID>KxLKE</LTID>
+  <Time>
+    <Course>0</Course>
+    <Result>33.55</Result>
+    <Status>1</Status>
+    <Start>60933729</Start>
+    <Finish>60967286</Finish>
+    <SystemStart>60934330</SystemStart>
+  </Time>
+  <Time>
+    <Course>0</Course>
+    <Result>30.09</Result>
+    <Status>1</Status>
+    <Start>63462149</Start>
+    <Finish>63492248</Finish>
+    <SystemStart>63460074</SystemStart>
+  </Time>
+</Comp>
+<Comp>
+  <Bib>73</Bib>
+  <LastName>Femrite</LastName>
+  <FirstName>Tyler</FirstName>
+  <Class>V</Class>
+  <Team>Lakes Area</Team>
+  <Custom1>5</Custom1>
+  <LTSent>*=C|I=ikgYc|b=73|n=Tyler+Femrite|c=V|t=Lakes+Area|L=0|</LTSent>
+  <LTRSent>*=R|I=ikgYc|r=0=36.41|r=0=28.18|f=1:04.59</LTRSent>
+  <LTID>ikgYc</LTID>
+  <Time>
+    <Course>0</Course>
+    <Result>36.41</Result>
+    <Status>1</Status>
+    <Start>60325432</Start>
+    <Finish>60361848</Finish>
+    <SystemStart>60327369</SystemStart>
+  </Time>
+  <Time>
+    <Course>0</Course>
+    <Result>28.18</Result>
+    <Status>1</Status>
+    <Start>62942434</Start>
+    <Finish>62970616</Finish>
+    <SystemStart>62940372</SystemStart>
+  </Time>
+</Comp>
+<Comp>
+  <Bib>83</Bib>
+  <LastName>Nessman</LastName>
+  <FirstName>Oliver</FirstName>
+  <Class>V</Class>
+  <Team>Lakes Area</Team>
+  <Custom1>7</Custom1>
+  <LTSent>*=C|I=TLvwV|b=83|n=Oliver+Nessman|c=V|t=Lakes+Area|L=0|</LTSent>
+  <LTRSent>*=R|I=TLvwV|r=0=31.49|r=0=34.08|f=1:05.57</LTRSent>
+  <LTID>TLvwV</LTID>
+  <Time>
+    <Course>0</Course>
+    <Result>31.49</Result>
+    <Status>1</Status>
+    <Start>60782819</Start>
+    <Finish>60814315</Finish>
+    <SystemStart>60783407</SystemStart>
+  </Time>
+  <Time>
+    <Course>0</Course>
+    <Result>34.08</Result>
+    <Status>1</Status>
+    <Start>63311556</Start>
+    <Finish>63345640</Finish>
+    <SystemStart>63309485</SystemStart>
+  </Time>
+</Comp>
+<Comp>
+  <Bib>58</Bib>
+  <LastName>Lindquist</LastName>
+  <FirstName>Issac</FirstName>
+  <Class>V</Class>
+  <Team>Lakes Area</Team>
+  <Custom1>2</Custom1>
+  <LTSent>*=C|I=lIHCw|b=58|n=Issac+Lindquist|c=V|t=Lakes+Area|L=0|</LTSent>
+  <LTRSent>*=R|I=lIHCw|r=0=DSQ|r=0=25.40|f=</LTRSent>
+  <LTID>lIHCw</LTID>
+  <Time>
+    <Course>0</Course>
+    <Result>DSQ</Result>
+    <Status>4</Status>
+    <Start>59755729</Start>
+    <Finish>59782437</Finish>
+    <SystemStart>59756340</SystemStart>
+  </Time>
+  <Time>
+    <Course>0</Course>
+    <Result>25.40</Result>
+    <Status>1</Status>
+    <Start>62429771</Start>
+    <Finish>62455174</Finish>
+    <SystemStart>62427719</SystemStart>
+  </Time>
+</Comp>
+<Comp>
+  <Bib>61</Bib>
+  <LastName>Bristlin</LastName>
+  <FirstName>Tristan</FirstName>
+  <Class>V</Class>
+  <Team>Detroit Lakes</Team>
+  <Custom1>3</Custom1>
+  <LTSent>*=C|I=DYmdb|b=61|n=Tristin+Bristlin|c=V|t=Detroit+Lakes|L=0|</LTSent>
+  <LTRSent>*=R|I=DYmdb|r=0=22.47|r=0=20.93|f=43.40</LTRSent>
+  <LTID>DYmdb</LTID>
+  <Time>
+    <Course>0</Course>
+    <Result>22.47</Result>
+    <Status>1</Status>
+    <Start>59876163</Start>
+    <Finish>59898637</Finish>
+    <SystemStart>59876755</SystemStart>
+  </Time>
+  <Time>
+    <Course>0</Course>
+    <Result>20.93</Result>
+    <Status>1</Status>
+    <Start>62528100</Start>
+    <Finish>62549039</Finish>
+    <SystemStart>62526013</SystemStart>
+  </Time>
+</Comp>
+<Comp>
+  <Bib>51</Bib>
+  <LastName>Bjerke</LastName>
+  <FirstName>Beau</FirstName>
+  <Class>V</Class>
+  <Team>Detroit Lakes</Team>
+  <Custom1>1</Custom1>
+  <LTSent>*=C|I=NXUPu|b=51|n=Beau+Bjerke|c=V|t=Detroit+Lakes|L=0|</LTSent>
+  <LTRSent>*=R|I=NXUPu|r=0=26.53|r=0=24.58|f=51.11</LTRSent>
+  <LTID>NXUPu</LTID>
+  <Time>
+    <Course>0</Course>
+    <Result>26.53</Result>
+    <Status>1</Status>
+    <Start>59407899</Start>
+    <Finish>59434431</Finish>
+    <SystemStart>59408504</SystemStart>
+  </Time>
+  <Time>
+    <Course>0</Course>
+    <Result>24.58</Result>
+    <Status>1</Status>
+    <Start>62195041</Start>
+    <Finish>62219625</Finish>
+    <SystemStart>62192953</SystemStart>
+  </Time>
+</Comp>
+<Comp>
+  <Bib>86</Bib>
+  <LastName>Skalin</LastName>
+  <FirstName>Lance</FirstName>
+  <Class>V</Class>
+  <Team>Detroit Lakes</Team>
+  <Custom1>8</Custom1>
+  <LTSent>*=C|I=vHKnv|b=86|n=Lance+Skalin|c=V|t=Detroit+Lakes|L=0|</LTSent>
+  <LTRSent>*=R|I=vHKnv|r=0=29.85|r=0=29.30|f=59.15</LTRSent>
+  <LTID>vHKnv</LTID>
+  <Time>
+    <Course>0</Course>
+    <Result>29.85</Result>
+    <Status>1</Status>
+    <Start>60845678</Start>
+    <Finish>60875537</Finish>
+    <SystemStart>60846277</SystemStart>
+  </Time>
+  <Time>
+    <Course>0</Course>
+    <Result>29.30</Result>
+    <Status>1</Status>
+    <Start>63375904</Start>
+    <Finish>63405209</Finish>
+    <SystemStart>63373846</SystemStart>
+  </Time>
+</Comp>
+<Comp>
+  <Bib>76</Bib>
+  <LastName>Bremseth</LastName>
+  <FirstName>Brayton</FirstName>
+  <Class>V</Class>
+  <Team>Detroit Lakes</Team>
+  <Custom1>6</Custom1>
+  <LTSent>*=C|I=QrqYE|b=76|n=Brayton+Bremseth|c=V|t=Detroit+Lakes|L=0|</LTSent>
+  <LTRSent>*=R|I=QrqYE|r=0=32.87|r=0=28.34|f=1:01.21</LTRSent>
+  <LTID>QrqYE</LTID>
+  <Time>
+    <Course>0</Course>
+    <Result>32.87</Result>
+    <Status>1</Status>
+    <Start>60474094</Start>
+    <Finish>60506972</Finish>
+    <SystemStart>60474699</SystemStart>
+  </Time>
+  <Time>
+    <Course>0</Course>
+    <Result>28.34</Result>
+    <Status>1</Status>
+    <Start>63044751</Start>
+    <Finish>63073091</Finish>
+    <SystemStart>63042663</SystemStart>
+  </Time>
+</Comp>
+<Comp>
+  <Bib>71</Bib>
+  <LastName>Anderson</LastName>
+  <FirstName>Beckett</FirstName>
+  <Class>V</Class>
+  <Team>Detroit Lakes</Team>
+  <Custom1>5</Custom1>
+  <LTSent>*=C|I=kaKdS|b=71|n=Beckett+Anderson|c=V|t=Detroit+Lakes|L=0|</LTSent>
+  <LTRSent>*=R|I=kaKdS|r=0=34.57|r=0=28.91|f=1:03.48</LTRSent>
+  <LTID>kaKdS</LTID>
+  <Time>
+    <Course>0</Course>
+    <Result>34.57</Result>
+    <Status>1</Status>
+    <Start>60243405</Start>
+    <Finish>60277977</Finish>
+    <SystemStart>60245297</SystemStart>
+  </Time>
+  <Time>
+    <Course>0</Course>
+    <Result>28.91</Result>
+    <Status>1</Status>
+    <Start>62877855</Start>
+    <Finish>62906768</Finish>
+    <SystemStart>62875777</SystemStart>
+  </Time>
+</Comp>
+<Comp>
+  <Bib>81</Bib>
+  <LastName>Steinert</LastName>
+  <FirstName>Rory</FirstName>
+  <Class>V</Class>
+  <Team>Detroit Lakes</Team>
+  <Custom1>7</Custom1>
+  <LTSent>*=C|I=pJtxe|b=81|n=Rory+Steinert|c=V|t=Detroit+Lakes|L=0|</LTSent>
+  <LTRSent>*=R|I=pJtxe|r=0=38.72|r=0=32.02|f=1:10.74</LTRSent>
+  <LTID>pJtxe</LTID>
+  <Time>
+    <Course>0</Course>
+    <Result>38.72</Result>
+    <Status>1</Status>
+    <Start>60667059</Start>
+    <Finish>60705781</Finish>
+    <SystemStart>60667662</SystemStart>
+  </Time>
+  <Time>
+    <Course>0</Course>
+    <Result>32.02</Result>
+    <Status>1</Status>
+    <Start>63236414</Start>
+    <Finish>63268442</Finish>
+    <SystemStart>63234331</SystemStart>
+  </Time>
+</Comp>
+<Comp>
+  <Bib>66</Bib>
+  <LastName>Kemper</LastName>
+  <FirstName>Mason</FirstName>
+  <Class>V</Class>
+  <Team>Detroit Lakes</Team>
+  <Custom1>4</Custom1>
+  <LTSent>*=C|I=TopTS|b=66|n=Mason+Kemper|c=V|t=Detroit+Lakes|L=0|</LTSent>
+  <LTRSent>*=R|I=TopTS|r=0=26.96|r=0=59.63|f=1:26.59</LTRSent>
+  <LTID>TopTS</LTID>
+  <Time>
+    <Course>0</Course>
+    <Result>26.96</Result>
+    <Status>1</Status>
+    <Start>60076560</Start>
+    <Finish>60103528</Finish>
+    <SystemStart>60078501</SystemStart>
+  </Time>
+  <Time>
+    <Course>0</Course>
+    <Result>59.63</Result>
+    <Status>1</Status>
+    <Start>62669048</Start>
+    <Finish>62728678</Finish>
+    <SystemStart>62666963</SystemStart>
+  </Time>
+</Comp>
+<Comp>
+  <Bib>56</Bib>
+  <LastName>Blue</LastName>
+  <FirstName>Max</FirstName>
+  <Class>V</Class>
+  <Team>Detroit Lakes</Team>
+  <Custom1>2</Custom1>
+  <LTSent>*=C|I=QBOdX|b=56|n=Max+Blue|c=V|t=Detroit+Lakes|L=0|</LTSent>
+  <LTRSent>*=R|I=QBOdX|r=0=DSQ|r=0=DSQ|f=</LTRSent>
+  <LTID>QBOdX</LTID>
+  <Time>
+    <Course>0</Course>
+    <Result>DSQ</Result>
+    <Status>4</Status>
+    <Start>59577884</Start>
+    <Finish>59708265</Finish>
+    <SystemStart>59580215</SystemStart>
+  </Time>
+  <Time>
+    <Course>0</Course>
+    <Result>DSQ</Result>
+    <Status>4</Status>
+    <Start>62354275</Start>
+    <Finish>62390724</Finish>
+    <SystemStart>62352206</SystemStart>
+  </Time>
+</Comp>
+<Comp>
+  <Bib>65</Bib>
+  <LastName>Wieber</LastName>
+  <FirstName>Jack</FirstName>
+  <Class>V</Class>
+  <Team>St Cloud Breakaways</Team>
+  <Custom1>4</Custom1>
+  <LTSent>*=C|I=IBQFG|b=65|n=Jack+Wieber|c=V|t=St+Cloud+Breakaways|L=0|</LTSent>
+  <LTRSent>*=R|I=IBQFG|r=0=25.74|r=0=24.21|f=49.95</LTRSent>
+  <LTID>IBQFG</LTID>
+  <Time>
+    <Course>0</Course>
+    <Result>25.74</Result>
+    <Status>1</Status>
+    <Start>60048077</Start>
+    <Finish>60073826</Finish>
+    <SystemStart>60048674</SystemStart>
+  </Time>
+  <Time>
+    <Course>0</Course>
+    <Result>24.21</Result>
+    <Status>1</Status>
+    <Start>62642496</Start>
+    <Finish>62666713</Finish>
+    <SystemStart>62640416</SystemStart>
+  </Time>
+</Comp>
+<Comp>
+  <Bib>60</Bib>
+  <LastName>Thompson</LastName>
+  <FirstName>Jack</FirstName>
+  <Class>V</Class>
+  <Team>St Cloud Breakaways</Team>
+  <Custom1>3</Custom1>
+  <LTSent>*=C|I=yfRgf|b=60|n=Jack+Thompson|c=V|t=St+Cloud+Breakaways|L=0|</LTSent>
+  <LTRSent>*=R|I=yfRgf|r=0=27.31|r=0=29.34|f=56.65</LTRSent>
+  <LTID>yfRgf</LTID>
+  <Time>
+    <Course>0</Course>
+    <Result>27.31</Result>
+    <Status>1</Status>
+    <Start>59840928</Start>
+    <Finish>59868240</Finish>
+    <SystemStart>59841546</SystemStart>
+  </Time>
+  <Time>
+    <Course>0</Course>
+    <Result>29.34</Result>
+    <Status>1</Status>
+    <Start>62491531</Start>
+    <Finish>62520878</Finish>
+    <SystemStart>62489461</SystemStart>
+  </Time>
+</Comp>
+<Comp>
+  <Bib>55</Bib>
+  <LastName>Fisk</LastName>
+  <FirstName>Jonathan</FirstName>
+  <Class>V</Class>
+  <Team>St Cloud Breakaways</Team>
+  <Custom1>2</Custom1>
+  <LTSent>*=C|I=tfCHn|b=55|n=Jonathan+Fisk|c=V|t=St+Cloud+Breakaways|L=0|</LTSent>
+  <LTRSent>*=R|I=tfCHn|r=0=32.38|r=0=30.09|f=1:02.47</LTRSent>
+  <LTID>tfCHn</LTID>
+  <Time>
+    <Course>0</Course>
+    <Result>32.38</Result>
+    <Status>1</Status>
+    <Start>59543149</Start>
+    <Finish>59575530</Finish>
+    <SystemStart>59543745</SystemStart>
+  </Time>
+  <Time>
+    <Course>0</Course>
+    <Result>30.09</Result>
+    <Status>1</Status>
+    <Start>62325897</Start>
+    <Finish>62355987</Finish>
+    <SystemStart>62323807</SystemStart>
+  </Time>
+</Comp>
+<Comp>
+  <Bib>70</Bib>
+  <LastName>Nelson</LastName>
+  <FirstName>Dane</FirstName>
+  <Class>V</Class>
+  <Team>St Cloud Breakaways</Team>
+  <Custom1>5</Custom1>
+  <LTSent>*=C|I=OFhkl|b=70|n=Dane+Nelson|c=V|t=St+Cloud+Breakaways|L=0|</LTSent>
+  <LTRSent>*=R|I=OFhkl|r=0=40.75|r=0=38.70|f=1:19.45</LTRSent>
+  <LTID>OFhkl</LTID>
+  <Time>
+    <Course>0</Course>
+    <Result>40.75</Result>
+    <Status>1</Status>
+    <Start>60199844</Start>
+    <Finish>60240597</Finish>
+    <SystemStart>60200455</SystemStart>
+  </Time>
+  <Time>
+    <Course>0</Course>
+    <Result>38.70</Result>
+    <Status>1</Status>
+    <Start>62836194</Start>
+    <Finish>62874900</Finish>
+    <SystemStart>62834120</SystemStart>
+  </Time>
+</Comp>
+<Comp>
+  <Bib>80</Bib>
+  <LastName>Blixt</LastName>
+  <FirstName>Liam</FirstName>
+  <Class>V</Class>
+  <Team>St Cloud Breakaways</Team>
+  <Custom1>7</Custom1>
+  <LTSent>*=C|I=IFmSq|b=80|n=Liam+Blixt|c=V|t=St+Cloud+Breakaways|L=0|</LTSent>
+  <LTRSent>*=R|I=IFmSq|r=0=41.20|r=0=40.04|f=1:21.24</LTRSent>
+  <LTID>IFmSq</LTID>
+  <Time>
+    <Course>0</Course>
+    <Result>41.20</Result>
+    <Status>1</Status>
+    <Start>60623016</Start>
+    <Finish>60664217</Finish>
+    <SystemStart>60624755</SystemStart>
+  </Time>
+  <Time>
+    <Course>0</Course>
+    <Result>40.04</Result>
+    <Status>1</Status>
+    <Start>63195406</Start>
+    <Finish>63235447</Finish>
+    <SystemStart>63193350</SystemStart>
+  </Time>
+</Comp>
+<Comp>
+  <Bib>75</Bib>
+  <LastName>Wheeler</LastName>
+  <FirstName>Harry</FirstName>
+  <Class>V</Class>
+  <Team>St Cloud Breakaways</Team>
+  <Custom1>6</Custom1>
+  <LTSent>*=C|I=vjOUp|b=75|n=Harry+Wheeler|c=V|t=St+Cloud+Breakaways|L=0|</LTSent>
+  <LTRSent>*=R|I=vjOUp|r=0=47.81|r=0=43.82|f=1:31.63</LTRSent>
+  <LTID>vjOUp</LTID>
+  <Time>
+    <Course>0</Course>
+    <Result>47.81</Result>
+    <Status>1</Status>
+    <Start>60420336</Start>
+    <Finish>60468149</Finish>
+    <SystemStart>60420965</SystemStart>
+  </Time>
+  <Time>
+    <Course>0</Course>
+    <Result>43.82</Result>
+    <Status>1</Status>
+    <Start>62993662</Start>
+    <Finish>63037488</Finish>
+    <SystemStart>62991583</SystemStart>
+  </Time>
+</Comp>
+<Comp>
+  <Bib>50</Bib>
+  <LastName>Reisinger</LastName>
+  <FirstName>William</FirstName>
+  <Class>V</Class>
+  <Team>St Cloud Breakaways</Team>
+  <Custom1>1</Custom1>
+  <LTSent>*=C|I=pZlYD|b=50|n=William+Reisinger|c=V|t=St+Cloud+Breakaways|L=0|</LTSent>
+  <LTRSent>*=R|I=pZlYD|r=0=24.34|r=0=DNF|f=</LTRSent>
+  <LTID>pZlYD</LTID>
+  <Time>
+    <Course>0</Course>
+    <Result>24.34</Result>
+    <Status>1</Status>
+    <Start>59380830</Start>
+    <Finish>59405170</Finish>
+    <SystemStart>59381431</SystemStart>
+  </Time>
+  <Time>
+    <Course>0</Course>
+    <Result>DNF</Result>
+    <Status>2</Status>
+    <Start>62083002</Start>
+    <SystemStart>62080945</SystemStart>
+  </Time>
+</Comp>
+<Comp>
+  <Bib>62</Bib>
+  <LastName>Sylvester</LastName>
+  <FirstName>George</FirstName>
+  <Class>V</Class>
+  <Team>Annandale</Team>
+  <Custom1>3</Custom1>
+  <LTSent>*=C|I=XlZWj|b=62|n=George+Sylvester|c=V|t=Annandale|L=0|</LTSent>
+  <LTRSent>*=R|I=XlZWj|r=0=30.40|r=0=28.47|f=58.87</LTRSent>
+  <LTID>XlZWj</LTID>
+  <Time>
+    <Course>0</Course>
+    <Result>30.40</Result>
+    <Status>1</Status>
+    <Start>59901724</Start>
+    <Finish>59932128</Finish>
+    <SystemStart>59903329</SystemStart>
+  </Time>
+  <Time>
+    <Course>0</Course>
+    <Result>28.47</Result>
+    <Status>1</Status>
+    <Start>62553954</Start>
+    <Finish>62582430</Finish>
+    <SystemStart>62551856</SystemStart>
+  </Time>
+</Comp>
+<Comp>
+  <Bib>72</Bib>
+  <LastName>Klinghagen</LastName>
+  <FirstName>Jacob</FirstName>
+  <Class>V</Class>
+  <Team>Annandale</Team>
+  <Custom1>5</Custom1>
+  <LTSent>*=C|I=epUbo|b=72|n=Jacob+Klinghagen|c=V|t=Annandale|L=0|</LTSent>
+  <LTRSent>*=R|I=epUbo|r=0=40.10|r=0=37.41|f=1:17.51</LTRSent>
+  <LTID>epUbo</LTID>
+  <Time>
+    <Course>0</Course>
+    <Result>40.10</Result>
+    <Status>1</Status>
+    <Start>60280561</Start>
+    <Finish>60320667</Finish>
+    <SystemStart>60281159</SystemStart>
+  </Time>
+  <Time>
+    <Course>0</Course>
+    <Result>37.41</Result>
+    <Status>1</Status>
+    <Start>62907461</Start>
+    <Finish>62944879</Finish>
+    <SystemStart>62905377</SystemStart>
+  </Time>
+</Comp>
+<Comp>
+  <Bib>77</Bib>
+  <LastName>Muetzel</LastName>
+  <FirstName>Evan</FirstName>
+  <Class>V</Class>
+  <Team>Annandale</Team>
+  <Custom1>6</Custom1>
+  <LTSent>*=C|I=FMpxg|b=77|n=Evan+Muetzel|c=V|t=Annandale|L=0|</LTSent>
+  <LTRSent>*=R|I=FMpxg|r=0=44.56|r=0=36.19|f=1:20.75</LTRSent>
+  <LTID>FMpxg</LTID>
+  <Time>
+    <Course>0</Course>
+    <Result>44.56</Result>
+    <Status>1</Status>
+    <Start>60509795</Start>
+    <Finish>60554359</Finish>
+    <SystemStart>60510403</SystemStart>
+  </Time>
+  <Time>
+    <Course>0</Course>
+    <Result>36.19</Result>
+    <Status>1</Status>
+    <Start>63076521</Start>
+    <Finish>63112712</Finish>
+    <SystemStart>63074475</SystemStart>
+  </Time>
+</Comp>
+<Comp>
+  <Bib>67</Bib>
+  <LastName>Kramer</LastName>
+  <FirstName>Mathew</FirstName>
+  <Class>V</Class>
+  <Team>Annandale</Team>
+  <Custom1>4</Custom1>
+  <LTSent>*=C|I=kaQlg|b=67|n=Mathew+Kramer|c=V|t=Annandale|L=0|</LTSent>
+  <LTRSent>*=R|I=kaQlg|r=0=33.05|r=0=50.50|f=1:23.55</LTRSent>
+  <LTID>kaQlg</LTID>
+  <Time>
+    <Course>0</Course>
+    <Result>33.05</Result>
+    <Status>1</Status>
+    <Start>60109243</Start>
+    <Finish>60142294</Finish>
+    <SystemStart>60110235</SystemStart>
+  </Time>
+  <Time>
+    <Course>0</Course>
+    <Result>50.50</Result>
+    <Status>1</Status>
+    <Start>62733023</Start>
+    <Finish>62783532</Finish>
+    <SystemStart>62730970</SystemStart>
+  </Time>
+</Comp>
+<Comp>
+  <Bib>87</Bib>
+  <LastName>Wendlandt</LastName>
+  <FirstName>Jack</FirstName>
+  <Class>V</Class>
+  <Team>Annandale</Team>
+  <Custom1>8</Custom1>
+  <LTSent>*=C|I=tXHcq|b=87|n=Jack+Wendlandt|c=V|t=Annandale|L=0|</LTSent>
+  <LTRSent>*=R|I=tXHcq|r=0=56.00|r=0=54.84|f=1:50.84</LTRSent>
+  <LTID>tXHcq</LTID>
+  <Time>
+    <Course>0</Course>
+    <Result>56.00</Result>
+    <Status>1</Status>
+    <Start>60879549</Start>
+    <Finish>60935558</Finish>
+    <SystemStart>60882246</SystemStart>
+  </Time>
+  <Time>
+    <Course>0</Course>
+    <Result>54.84</Result>
+    <Status>1</Status>
+    <Start>63409748</Start>
+    <Finish>63464592</Finish>
+    <SystemStart>63407698</SystemStart>
+  </Time>
+</Comp>
+<Comp>
+  <Bib>82</Bib>
+  <LastName>Diekmann</LastName>
+  <FirstName>Nolan</FirstName>
+  <Class>V</Class>
+  <Team>Annandale</Team>
+  <Custom1>7</Custom1>
+  <LTSent>*=C|I=LQaDM|b=82|n=Nolan+Diekmann|c=V|t=Annandale|L=0|</LTSent>
+  <LTRSent>*=R|I=LQaDM|r=0=1:11.81|r=0=39.63|f=1:51.44</LTRSent>
+  <LTID>LQaDM</LTID>
+  <Time>
+    <Course>0</Course>
+    <Result>1:11.81</Result>
+    <Status>1</Status>
+    <Start>60707233</Start>
+    <Finish>60779051</Finish>
+    <SystemStart>60712483</SystemStart>
+  </Time>
+  <Time>
+    <Course>0</Course>
+    <Result>39.63</Result>
+    <Status>1</Status>
+    <Start>63269274</Start>
+    <Finish>63308912</Finish>
+    <SystemStart>63267233</SystemStart>
+  </Time>
+</Comp>
+<Comp>
+  <Bib>52</Bib>
+  <LastName>Jones</LastName>
+  <FirstName>Pete</FirstName>
+  <Class>V</Class>
+  <Team>Annandale</Team>
+  <Custom1>1</Custom1>
+  <LTSent>*=C|I=wXqcK|b=52|n=Pete+Jones|c=V|t=Annandale|L=0|</LTSent>
+  <LTRSent>*=R|I=wXqcK|r=0=DSQ|r=0=24.28|f=</LTRSent>
+  <LTID>wXqcK</LTID>
+  <Time>
+    <Course>0</Course>
+    <Result>DSQ</Result>
+    <Status>4</Status>
+    <Start>59438901</Start>
+    <Finish>59464482</Finish>
+    <SystemStart>59439488</SystemStart>
+  </Time>
+  <Time>
+    <Course>0</Course>
+    <Result>24.28</Result>
+    <Status>1</Status>
+    <Start>62238211</Start>
+    <Finish>62262491</Finish>
+    <SystemStart>62236156</SystemStart>
+  </Time>
+</Comp>
+<Comp>
+  <Bib>57</Bib>
+  <LastName>Lampi</LastName>
+  <FirstName>Olin</FirstName>
+  <Class>V</Class>
+  <Team>Annandale</Team>
+  <Custom1>2</Custom1>
+  <LTSent>*=C|I=vplWU|b=57|n=Olin+Lampi|c=V|t=Annandale|L=0|</LTSent>
+  <LTRSent>*=R|I=vplWU|r=0=DSQ|r=0=28.02|f=</LTRSent>
+  <LTID>vplWU</LTID>
+  <Time>
+    <Course>0</Course>
+    <Result>DSQ</Result>
+    <Status>4</Status>
+    <Start>59719947</Start>
+    <Finish>59749905</Finish>
+    <SystemStart>59720533</SystemStart>
+  </Time>
+  <Time>
+    <Course>0</Course>
+    <Result>28.02</Result>
+    <Status>1</Status>
+    <Start>62396291</Start>
+    <Finish>62424318</Finish>
+    <SystemStart>62394217</SystemStart>
+  </Time>
+</Comp>
+<TimingLog>
+  <L></L>
+  <L>1/15/2026 3:52:35 PM Starting Timing - Single Course</L>
+  <L></L>
+  <L>Start 15:52:38.190 bib FA   run 1</L>
+  <L>Finish 15:52:39.460 bib FA   run 1</L>
+  <L>Elapsed bib FA run 1         1.27</L>
+  <L>Start 15:53:16.360 bib FB   run 1</L>
+  <L>Finish 15:53:18.750 bib FB   run 1</L>
+  <L>Elapsed bib FB run 1         2.39</L>
+  <L>Start 15:54:20.259 bib FC   run 1</L>
+  <L>Finish 15:54:21.379 bib FC   run 1</L>
+  <L>Elapsed bib FC run 1         1.12</L>
+  <L>Start 15:54:51.959 bib FD   run 1</L>
+  <L>Finish 15:54:53.208 bib FD   run 1</L>
+  <L>Elapsed bib FD run 1         1.24</L>
+  <L>Start 15:55:44.987 bib FE   run 1</L>
+  <L>Finish 15:55:46.127 bib FE   run 1</L>
+  <L>Elapsed bib FE run 1         1.14</L>
+  <L>Start 15:56:04.827 bib FF   run 1</L>
+  <L>Finish 15:56:07.797 bib FF   run 1</L>
+  <L>Elapsed bib FF run 1         2.97</L>
+  <L>Start 15:59:30.714 bib FG   run 1</L>
+  <L>Finish 15:59:31.423 bib FG   run 1</L>
+  <L>Elapsed bib FG run 1         0.70</L>
+  <L>Start 16:03:59.969 bib FH   run 1</L>
+  <L>Finish 16:04:01.849 bib FH   run 1</L>
+  <L>Elapsed bib FH run 1         1.88</L>
+  <L>Start 16:05:11.078 bib FI   run 1</L>
+  <L>Finish 16:05:13.458 bib FI   run 1</L>
+  <L>Elapsed bib FI run 1         2.38</L>
+  <L>Start 16:06:22.976 bib FJ   run 1</L>
+  <L>Finish 16:06:23.756 bib FJ   run 1</L>
+  <L>Elapsed bib FJ run 1         0.78</L>
+  <L>Start 16:08:43.974 bib FK   run 1</L>
+  <L>Finish 16:08:45.174 bib FK   run 1</L>
+  <L>Elapsed bib FK run 1         1.20</L>
+  <L>Start 16:13:45.329 bib FL   run 1</L>
+  <L>Finish 16:13:46.509 bib FL   run 1</L>
+  <L>Elapsed bib FL run 1         1.18</L>
+  <L>Start 16:14:14.832 bib FM   run 1</L>
+  <L>Finish 16:16:09.239 bib FM   run 1</L>
+  <L>Elapsed bib FM run 1      1:54.40</L>
+  <L>Finish at 16:16:10.960 not assigned, nobody on course</L>
+  <L>Start 16:16:21.452 bib FN   run 1</L>
+  <L>Finish 16:16:33.436 bib FN   run 1</L>
+  <L>Elapsed bib FN run 1        11.98</L>
+  <L>Start 16:23:05.169 bib FO   run 1</L>
+  <L>Finish 16:23:06.219 bib FO   run 1</L>
+  <L>Elapsed bib FO run 1         1.05</L>
+  <L>Start 16:23:42.968 bib FP   run 1</L>
+  <L>Finish 16:23:43.858 bib FP   run 1</L>
+  <L>Elapsed bib FP run 1         0.89</L>
+  <L>Start 16:27:50.356 bib FQ   run 1</L>
+  <L>Finish 16:28:29.969 bib FQ   run 1</L>
+  <L>Elapsed bib FQ run 1        39.61</L>
+  <L>Start 16:28:40.543 bib FR   run 1</L>
+  <L>Finish 16:29:16.275 bib FR   run 1</L>
+  <L>Elapsed bib FR run 1        35.73</L>
+  <L>Start 16:29:40.830 bib 50   run 1</L>
+  <L>Finish 16:30:05.170 bib 50   run 1</L>
+  <L>Elapsed bib 50 run 1        24.34</L>
+  <L>Start 16:30:07.899 bib 51   run 1</L>
+  <L>Finish 16:30:34.431 bib 51   run 1</L>
+  <L>Elapsed bib 51 run 1        26.53</L>
+  <L>Start 16:30:38.901 bib 52   run 1</L>
+  <L>Finish 16:31:04.482 bib 52   run 1</L>
+  <L>Elapsed bib 52 run 1        25.58</L>
+  <L>Start 16:31:11.771 bib 53   run 1</L>
+  <L>Start 16:31:42.753 bib 54   run 1</L>
+  <L>Finish 16:31:42.899 bib 53   run 1</L>
+  <L>Elapsed bib 53 run 1        31.12</L>
+  <L>Finish 16:32:16.695 bib 54   run 1</L>
+  <L>Elapsed bib 54 run 1        33.94</L>
+  <L>Start 16:32:23.149 bib 55   run 1</L>
+  <L>Finish 16:32:55.530 bib 55   run 1</L>
+  <L>Elapsed bib 55 run 1        32.38</L>
+  <L>Start 16:32:57.884 bib 56   run 1</L>
+  <L>Finish 16:35:08.265 bib 56   run 1</L>
+  <L>Elapsed bib 56 run 1      2:10.38</L>
+  <L>Start 16:35:19.947 bib 57   run 1</L>
+  <L>Finish 16:35:49.905 bib 57   run 1</L>
+  <L>Elapsed bib 57 run 1        29.95</L>
+  <L>Start 16:35:55.729 bib 58   run 1</L>
+  <L>Finish 16:36:22.437 bib 58   run 1</L>
+  <L>Elapsed bib 58 run 1        26.70</L>
+  <L>Start 16:36:51.082 bib 59   run 1</L>
+  <L>Finish 16:37:15.221 bib 59   run 1</L>
+  <L>Elapsed bib 59 run 1        24.13</L>
+  <L>Start 16:37:20.928 bib 60   run 1</L>
+  <L>Finish 16:37:48.240 bib 60   run 1</L>
+  <L>Elapsed bib 60 run 1        27.31</L>
+  <L>Start 16:37:56.163 bib 61   run 1</L>
+  <L>Finish 16:38:18.637 bib 61   run 1</L>
+  <L>Elapsed bib 61 run 1        22.47</L>
+  <L>Start 16:38:21.724 bib 62   run 1</L>
+  <L>Finish 16:38:52.128 bib 62   run 1</L>
+  <L>Elapsed bib 62 run 1        30.40</L>
+  <L>Start 16:39:01.759 bib 63   run 1</L>
+  <L>Finish 16:39:25.113 bib 63   run 1</L>
+  <L>Elapsed bib 63 run 1        23.35</L>
+  <L>Start 16:39:26.642 bib 64   run 1</L>
+  <L>DNF bib 64 run 1</L>
+  <L>Start 16:40:48.077 bib 65   run 1</L>
+  <L>Finish 16:41:13.826 bib 65   run 1</L>
+  <L>Elapsed bib 65 run 1        25.74</L>
+  <L>Start 16:41:16.560 bib 66   run 1</L>
+  <L>Finish 16:41:43.528 bib 66   run 1</L>
+  <L>Elapsed bib 66 run 1        26.96</L>
+  <L>Start 16:41:49.243 bib 67   run 1</L>
+  <L>Finish 16:42:22.294 bib 67   run 1</L>
+  <L>Elapsed bib 67 run 1        33.05</L>
+  <L>Start 16:42:23.704 bib 68   run 1</L>
+  <L>Finish 16:42:48.761 bib 68   run 1</L>
+  <L>Elapsed bib 68 run 1        25.05</L>
+  <L>Start 16:42:51.506 bib 69   run 1</L>
+  <L>Finish 16:43:16.370 bib 69   run 1</L>
+  <L>Elapsed bib 69 run 1        24.86</L>
+  <L>Start 16:43:19.844 bib 70   run 1</L>
+  <L>Finish 16:44:00.597 bib 70   run 1</L>
+  <L>Elapsed bib 70 run 1        40.75</L>
+  <L>Start 16:44:03.405 bib 71   run 1</L>
+  <L>Finish 16:44:37.977 bib 71   run 1</L>
+  <L>Elapsed bib 71 run 1        34.57</L>
+  <L>Start 16:44:40.561 bib 72   run 1</L>
+  <L>Finish 16:45:20.667 bib 72   run 1</L>
+  <L>Elapsed bib 72 run 1        40.10</L>
+  <L>Start 16:45:25.432 bib 73   run 1</L>
+  <L>Finish 16:46:01.848 bib 73   run 1</L>
+  <L>Elapsed bib 73 run 1        36.41</L>
+  <L>Start 16:46:03.383 bib 74   run 1</L>
+  <L>Finish 16:46:30.345 bib 74   run 1</L>
+  <L>Elapsed bib 74 run 1        26.96</L>
+  <L>Start 16:46:30.703 bib 64   run 2</L>
+  <L>Finish 16:46:55.508 bib 64   run 2</L>
+  <L>Elapsed bib 64 run 2        24.80</L>
+  <L>Start 16:47:00.336 bib 75   run 1</L>
+  <L>Finish 16:47:48.149 bib 75   run 1</L>
+  <L>Elapsed bib 75 run 1        47.81</L>
+  <L>Start 16:47:54.094 bib 76   run 1</L>
+  <L>Finish 16:48:26.972 bib 76   run 1</L>
+  <L>Elapsed bib 76 run 1        32.87</L>
+  <L>Start 16:48:29.795 bib 77   run 1</L>
+  <L>Finish 16:49:14.359 bib 77   run 1</L>
+  <L>Elapsed bib 77 run 1        44.56</L>
+  <L>Start 16:49:18.352 bib 78   run 1</L>
+  <L>Finish 16:49:51.471 bib 78   run 1</L>
+  <L>Elapsed bib 78 run 1        33.11</L>
+  <L>Start 16:49:56.010 bib 79   run 1</L>
+  <L>Finish 16:50:20.056 bib 79   run 1</L>
+  <L>Elapsed bib 79 run 1        24.04</L>
+  <L>Start 16:50:23.016 bib 80   run 1</L>
+  <L>Finish 16:51:04.217 bib 80   run 1</L>
+  <L>Elapsed bib 80 run 1        41.20</L>
+  <L>Start 16:51:07.059 bib 81   run 1</L>
+  <L>Finish 16:51:45.781 bib 81   run 1</L>
+  <L>Elapsed bib 81 run 1        38.72</L>
+  <L>Start 16:51:47.233 bib 82   run 1</L>
+  <L>Finish 16:52:59.051 bib 82   run 1</L>
+  <L>Elapsed bib 82 run 1      1:11.81</L>
+  <L>Start 16:53:02.819 bib 83   run 1</L>
+  <L>Finish 16:53:34.315 bib 83   run 1</L>
+  <L>Elapsed bib 83 run 1        31.49</L>
+  <L>Start 16:53:35.674 bib 84   run 1</L>
+  <L>Start 16:54:05.678 bib 86   run 1</L>
+  <L>Finish 16:54:18.878 bib 84   run 1</L>
+  <L>Elapsed bib 84 run 1        43.20</L>
+  <L>Finish 16:54:35.537 bib 86   run 1</L>
+  <L>Elapsed bib 86 run 1        29.85</L>
+  <L>Start 16:54:39.549 bib 87   run 1</L>
+  <L>Start 16:55:33.729 bib 88   run 1</L>
+  <L>Finish 16:55:35.558 bib 87   run 1</L>
+  <L>Elapsed bib 87 run 1        56.00</L>
+  <L>Start 16:56:05.712 bib 89   run 1</L>
+  <L>Finish 16:56:07.286 bib 88   run 1</L>
+  <L>Elapsed bib 88 run 1        33.55</L>
+  <L>Finish 16:56:47.591 bib 89   run 1</L>
+  <L>Elapsed bib 89 run 1        41.87</L>
+  <L>Start 16:56:53.160 bib 91   run 1</L>
+  <L>Start 16:57:25.865 bib 92   run 1</L>
+  <L>Finish 16:57:28.858 bib 91   run 1</L>
+  <L>Elapsed bib 91 run 1        35.69</L>
+  <L>Start 16:57:58.101 bib 93   run 1</L>
+  <L>Finish 16:58:16.719 bib 92   run 1</L>
+  <L>Elapsed bib 92 run 1        50.85</L>
+  <L>Start 16:58:30.445 bib 94   run 1</L>
+  <L>Finish 16:58:32.264 bib 93   run 1</L>
+  <L>Elapsed bib 93 run 1        34.16</L>
+  <L>Finish 16:59:02.633 bib 94   run 1</L>
+  <L>Elapsed bib 94 run 1        32.18</L>
+  <L>Start 16:59:02.732 bib 95   run 1</L>
+  <L>Start 16:59:35.452 bib 96   run 1</L>
+  <L>Finish 16:59:37.228 bib 95   run 1</L>
+  <L>Elapsed bib 95 run 1        34.49</L>
+  <L>Start 17:00:11.076 bib 97   run 1</L>
+  <L>Finish 17:00:13.335 bib 96   run 1</L>
+  <L>Elapsed bib 96 run 1        37.88</L>
+  <L>Start 17:00:48.830 bib 98   run 1</L>
+  <L>Finish 17:00:52.083 bib 97   run 1</L>
+  <L>Elapsed bib 97 run 1        41.00</L>
+  <L>Start 17:01:17.622 bib 99   run 1</L>
+  <L>Finish 17:01:20.153 bib 98   run 1</L>
+  <L>Elapsed bib 98 run 1        31.32</L>
+  <L>Start 17:02:23.783 bib 100  run 1</L>
+  <L>Finish 17:02:29.331 bib 99   run 1</L>
+  <L>Elapsed bib 99 run 1      1:11.70</L>
+  <L>Finish 17:03:00.207 bib 100  run 1</L>
+  <L>Elapsed bib 100 run 1        36.42</L>
+  <L>Start 17:03:02.898 bib 101  run 1</L>
+  <L>Finish 17:03:32.138 bib 101  run 1</L>
+  <L>Elapsed bib 101 run 1        29.24</L>
+  <L>Start 17:03:35.770 bib 102  run 1</L>
+  <L>Start 17:04:13.129 bib 103  run 1</L>
+  <L>Finish 17:04:16.025 bib 102  run 1</L>
+  <L>Elapsed bib 102 run 1        40.25</L>
+  <L>Finish 17:04:52.851 bib 103  run 1</L>
+  <L>Elapsed bib 103 run 1        39.72</L>
+  <L>Start 17:04:59.551 bib 104  run 1</L>
+  <L>Start 17:05:25.358 bib 105  run 1</L>
+  <L>Finish 17:05:29.214 bib 104  run 1</L>
+  <L>Elapsed bib 104 run 1        29.66</L>
+  <L>Start 17:06:03.366 bib 106  run 1</L>
+  <L>Finish 17:06:11.292 bib 105  run 1</L>
+  <L>Elapsed bib 105 run 1        45.93</L>
+  <L>Start 17:06:39.251 bib 107  run 1</L>
+  <L>Finish 17:06:45.771 bib 106  run 1</L>
+  <L>Elapsed bib 106 run 1        42.40</L>
+  <L>Finish 17:06:47.925 bib 107  run 1</L>
+  <L>Elapsed bib 107 run 1         8.67</L>
+  <L>False finish, bib 107</L>
+  <L>Finish 17:07:13.214 bib 107  run 1</L>
+  <L>Elapsed bib 107 run 1        33.96</L>
+  <L>Start 17:07:28.505 bib 109  run 1</L>
+  <L>Start 17:08:12.170 bib 110  run 1</L>
+  <L>Finish 17:08:14.304 bib 109  run 1</L>
+  <L>Elapsed bib 109 run 1        45.79</L>
+  <L>Start 17:08:52.528 bib 111  run 1</L>
+  <L>Finish 17:08:56.528 bib 110  run 1</L>
+  <L>Elapsed bib 110 run 1        44.35</L>
+  <L>Finish 17:09:44.172 bib 111  run 1</L>
+  <L>Elapsed bib 111 run 1        51.64</L>
+  <L>Start 17:09:46.133 bib 112  run 1</L>
+  <L>Finish 17:10:22.664 bib 112  run 1</L>
+  <L>Elapsed bib 112 run 1        36.53</L>
+  <L></L>
+  <L>1/15/2026 5:12:13 PM Starting Timing - Single Course</L>
+  <L></L>
+  <L>Start 17:12:39.816 bib FA   run 1</L>
+  <L>Start 17:13:15.313 bib FB   run 1</L>
+  <L>Finish 17:13:15.336 bib FA   run 1</L>
+  <L>Elapsed bib FA run 1        35.52</L>
+  <L>Finish 17:13:48.339 bib FB   run 1</L>
+  <L>Elapsed bib FB run 1        33.02</L>
+  <L>Start 17:13:49.095 bib FC   run 1</L>
+  <L>Finish 17:14:26.645 bib FC   run 1</L>
+  <L>Elapsed bib FC run 1        37.55</L>
+  <L>Start 17:14:43.002 bib 50   run 2</L>
+  <L>Start 17:16:35.041 bib 51   run 2</L>
+  <L>DNF bib 50 run 2</L>
+  <L>Finish 17:16:59.625 bib 51   run 2</L>
+  <L>Elapsed bib 51 run 2        24.58</L>
+  <L>Start 17:17:18.211 bib 52   run 2</L>
+  <L>Finish 17:17:42.491 bib 52   run 2</L>
+  <L>Elapsed bib 52 run 2        24.28</L>
+  <L>Start 17:17:46.357 bib 53   run 2</L>
+  <L>Finish 17:18:15.302 bib 53   run 2</L>
+  <L>Elapsed bib 53 run 2        28.94</L>
+  <L>Start 17:18:15.589 bib 54   run 2</L>
+  <L>Finish 17:18:43.429 bib 54   run 2</L>
+  <L>Elapsed bib 54 run 2        27.84</L>
+  <L>Start 17:18:45.897 bib 55   run 2</L>
+  <L>Start 17:19:14.275 bib 56   run 2</L>
+  <L>Finish 17:19:15.987 bib 55   run 2</L>
+  <L>Elapsed bib 55 run 2        30.09</L>
+  <L>Finish 17:19:50.724 bib 56   run 2</L>
+  <L>Elapsed bib 56 run 2        36.44</L>
+  <L>Start 17:19:56.291 bib 57   run 2</L>
+  <L>Finish 17:20:24.318 bib 57   run 2</L>
+  <L>Elapsed bib 57 run 2        28.02</L>
+  <L>Start 17:20:29.771 bib 58   run 2</L>
+  <L>Finish 17:20:55.174 bib 58   run 2</L>
+  <L>Elapsed bib 58 run 2        25.40</L>
+  <L>Start 17:21:00.591 bib 59   run 2</L>
+  <L>Finish 17:21:22.635 bib 59   run 2</L>
+  <L>Elapsed bib 59 run 2        22.04</L>
+  <L>Start 17:21:31.531 bib 60   run 2</L>
+  <L>Finish 17:22:00.878 bib 60   run 2</L>
+  <L>Elapsed bib 60 run 2        29.34</L>
+  <L>Start 17:22:08.100 bib 61   run 2</L>
+  <L>Finish 17:22:29.039 bib 61   run 2</L>
+  <L>Elapsed bib 61 run 2        20.93</L>
+  <L>Start 17:22:33.954 bib 62   run 2</L>
+  <L>Finish 17:23:02.430 bib 62   run 2</L>
+  <L>Elapsed bib 62 run 2        28.47</L>
+  <L>Start 17:23:11.513 bib 63   run 2</L>
+  <L>Finish 17:23:34.159 bib 63   run 2</L>
+  <L>Elapsed bib 63 run 2        22.64</L>
+  <L>Start 17:23:34.731 bib 64   run 3</L>
+  <L>Finish 17:23:57.919 bib 64   run 3</L>
+  <L>Elapsed bib 64 run 3        23.18</L>
+  <L>Start 17:24:02.496 bib 65   run 2</L>
+  <L>Finish 17:24:26.713 bib 65   run 2</L>
+  <L>Elapsed bib 65 run 2        24.21</L>
+  <L>Start 17:24:29.048 bib 66   run 2</L>
+  <L>Finish 17:25:28.678 bib 66   run 2</L>
+  <L>Elapsed bib 66 run 2        59.63</L>
+  <L>Start 17:25:33.023 bib 67   run 2</L>
+  <L>Finish 17:26:23.532 bib 67   run 2</L>
+  <L>Elapsed bib 67 run 2        50.50</L>
+  <L>Start 17:26:24.344 bib 68   run 2</L>
+  <L>Finish 17:26:47.571 bib 68   run 2</L>
+  <L>Elapsed bib 68 run 2        23.22</L>
+  <L>Start 17:26:49.718 bib 69   run 2</L>
+  <L>Finish 17:27:12.780 bib 69   run 2</L>
+  <L>Elapsed bib 69 run 2        23.06</L>
+  <L>Start 17:27:16.194 bib 70   run 2</L>
+  <L>Finish 17:27:54.900 bib 70   run 2</L>
+  <L>Elapsed bib 70 run 2        38.70</L>
+  <L>Start 17:27:57.855 bib 71   run 2</L>
+  <L>Finish 17:28:26.768 bib 71   run 2</L>
+  <L>Elapsed bib 71 run 2        28.91</L>
+  <L>Start 17:28:27.461 bib 72   run 2</L>
+  <L>Start 17:29:02.434 bib 73   run 2</L>
+  <L>Finish 17:29:04.879 bib 72   run 2</L>
+  <L>Elapsed bib 72 run 2        37.41</L>
+  <L>Start 17:29:27.393 bib 74   run 2</L>
+  <L>Finish 17:29:30.616 bib 73   run 2</L>
+  <L>Elapsed bib 73 run 2        28.18</L>
+  <L>Finish 17:29:52.020 bib 74   run 2</L>
+  <L>Elapsed bib 74 run 2        24.62</L>
+  <L>Start 17:29:53.662 bib 75   run 2</L>
+  <L>Finish 17:30:37.488 bib 75   run 2</L>
+  <L>Elapsed bib 75 run 2        43.82</L>
+  <L>Start 17:30:44.751 bib 76   run 2</L>
+  <L>Finish 17:31:13.091 bib 76   run 2</L>
+  <L>Elapsed bib 76 run 2        28.34</L>
+  <L>Start 17:31:16.521 bib 77   run 2</L>
+  <L>Finish 17:31:52.712 bib 77   run 2</L>
+  <L>Elapsed bib 77 run 2        36.19</L>
+  <L>Start 17:31:53.767 bib 78   run 2</L>
+  <L>Finish 17:32:19.756 bib 78   run 2</L>
+  <L>Elapsed bib 78 run 2        25.98</L>
+  <L>Start 17:32:22.359 bib 79   run 2</L>
+  <L>Finish 17:33:12.991 bib 79   run 2</L>
+  <L>Elapsed bib 79 run 2        50.63</L>
+  <L>Start 17:33:15.406 bib 80   run 2</L>
+  <L>Finish 17:33:55.447 bib 80   run 2</L>
+  <L>Elapsed bib 80 run 2        40.04</L>
+  <L>Start 17:33:56.414 bib 81   run 2</L>
+  <L>Finish 17:34:28.442 bib 81   run 2</L>
+  <L>Elapsed bib 81 run 2        32.02</L>
+  <L>Start 17:34:29.274 bib 82   run 2</L>
+  <L>Finish 17:35:08.912 bib 82   run 2</L>
+  <L>Elapsed bib 82 run 2        39.63</L>
+  <L>Start 17:35:11.556 bib 83   run 2</L>
+  <L>Finish 17:35:45.640 bib 83   run 2</L>
+  <L>Elapsed bib 83 run 2        34.08</L>
+  <L>Start 17:35:47.882 bib 84   run 2</L>
+  <L>Finish 17:36:14.590 bib 84   run 2</L>
+  <L>Elapsed bib 84 run 2        26.70</L>
+  <L>Start 17:36:15.904 bib 86   run 2</L>
+  <L>Finish 17:36:45.209 bib 86   run 2</L>
+  <L>Elapsed bib 86 run 2        29.30</L>
+  <L>Start 17:36:49.748 bib 87   run 2</L>
+  <L>Start 17:37:42.149 bib 88   run 2</L>
+  <L>Finish 17:37:44.592 bib 87   run 2</L>
+  <L>Elapsed bib 87 run 2        54.84</L>
+  <L>Start 17:38:10.171 bib 89   run 2</L>
+  <L>Finish 17:38:12.248 bib 88   run 2</L>
+  <L>Elapsed bib 88 run 2        30.09</L>
+  <L>Finish 17:38:44.161 bib 89   run 2</L>
+  <L>Elapsed bib 89 run 2        33.99</L>
+  <L>Start 17:38:51.008 bib 91   run 2</L>
+  <L>Start 17:39:20.028 bib 92   run 2</L>
+  <L>Finish 17:39:22.043 bib 91   run 2</L>
+  <L>Elapsed bib 91 run 2        31.03</L>
+  <L>Start 17:39:49.368 bib 93   run 2</L>
+  <L>Finish 17:40:16.416 bib 92   run 2</L>
+  <L>Elapsed bib 92 run 2        56.38</L>
+  <L>Finish 17:40:21.719 bib 93   run 2</L>
+  <L>Elapsed bib 93 run 2        32.35</L>
+  <L>Start 17:40:26.627 bib 94   run 2</L>
+  <L>Finish 17:41:02.620 bib 94   run 2</L>
+  <L>Elapsed bib 94 run 2        35.99</L>
+  <L>Start 17:41:03.469 bib 95   run 2</L>
+  <L>Finish 17:41:33.555 bib 95   run 2</L>
+  <L>Elapsed bib 95 run 2        30.08</L>
+  <L>Start 17:41:33.638 bib 96   run 2</L>
+  <L>Start 17:42:08.520 bib 97   run 2</L>
+  <L>Finish 17:42:09.008 bib 96   run 2</L>
+  <L>Elapsed bib 96 run 2        35.37</L>
+  <L>Start 17:42:38.435 bib 98   run 2</L>
+  <L>Finish 17:42:41.598 bib 97   run 2</L>
+  <L>Elapsed bib 97 run 2        33.07</L>
+  <L>Start 17:43:04.603 bib 99   run 2</L>
+  <L>Finish 17:43:05.851 bib 98   run 2</L>
+  <L>Elapsed bib 98 run 2        27.41</L>
+  <L>Finish 17:43:40.074 bib 99   run 2</L>
+  <L>Elapsed bib 99 run 2        35.47</L>
+  <L>Start 17:43:47.400 bib 100  run 2</L>
+  <L>Start 17:44:20.760 bib 101  run 2</L>
+  <L>Finish 17:44:22.326 bib 100  run 2</L>
+  <L>Elapsed bib 100 run 2        34.92</L>
+  <L>Finish 17:44:47.861 bib 101  run 2</L>
+  <L>Elapsed bib 101 run 2        27.10</L>
+  <L>Start 17:44:49.329 bib 102  run 2</L>
+  <L>Start 17:45:35.497 bib 103  run 2</L>
+  <L>Finish 17:45:41.237 bib 102  run 2</L>
+  <L>Elapsed bib 102 run 2        51.90</L>
+  <L>Start 17:46:07.564 bib 104  run 2</L>
+  <L>Finish 17:46:11.313 bib 103  run 2</L>
+  <L>Elapsed bib 103 run 2        35.81</L>
+  <L>Finish 17:46:35.761 bib 104  run 2</L>
+  <L>Elapsed bib 104 run 2        28.19</L>
+  <L>Start 17:46:38.129 bib 105  run 2</L>
+  <L>Start 17:47:13.959 bib 106  run 2</L>
+  <L>Finish 17:47:19.578 bib 105  run 2</L>
+  <L>Elapsed bib 105 run 2        41.44</L>
+  <L>Start 17:47:48.336 bib 107  run 2</L>
+  <L>Finish 17:47:54.589 bib 106  run 2</L>
+  <L>Elapsed bib 106 run 2        40.63</L>
+  <L>Start 17:48:19.883 bib 109  run 2</L>
+  <L>Finish 17:48:20.388 bib 107  run 2</L>
+  <L>Elapsed bib 107 run 2        32.05</L>
+  <L>Start 17:48:53.449 bib 110  run 2</L>
+  <L>Finish 17:48:53.559 bib 109  run 2</L>
+  <L>Elapsed bib 109 run 2        33.67</L>
+  <L>Start 17:49:26.881 bib 111  run 2</L>
+  <L>Finish 17:49:34.387 bib 110  run 2</L>
+  <L>Elapsed bib 110 run 2        40.93</L>
+  <L>Start 17:50:05.222 bib 112  run 2</L>
+  <L>Finish 17:50:11.497 bib 111  run 2</L>
+  <L>Elapsed bib 111 run 2        44.61</L>
+  <L>Finish 17:50:31.185 bib 112  run 2</L>
+  <L>Elapsed bib 112 run 2        25.96</L>
+</TimingLog>
+<Notes>
+  <CurrentPage>0</CurrentPage>
+</Notes>
+</ClubRace>
