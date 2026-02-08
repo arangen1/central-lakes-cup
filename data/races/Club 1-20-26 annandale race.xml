@@ -2873,10 +2873,10 @@
 <Comp>
   <Bib>90</Bib>
   <LastName>Imgrund</LastName>
-  <FirstName>Sam</FirstName>
+  <FirstName>Samantha</FirstName>
   <Class>JVF</Class>
   <Team>Brainerd</Team>
-  <LTSent>*=C|I=IVMxd|b=90|n=Sam+Imgrund|c=JVF|t=Brainerd|L=0|</LTSent>
+  <LTSent>*=C|I=IVMxd|b=90|n=Samantha+Imgrund|c=JVF|t=Brainerd|L=0|</LTSent>
   <LTRSent>*=R|I=IVMxd|r=1=51.39|r=0=1:05.36|f=1:56.75</LTRSent>
   <LTID>IVMxd</LTID>
   <Time>
@@ -3691,3 +3691,4 @@
   <CurrentPage>0</CurrentPage>
 </Notes>
 </ClubRace>
+
