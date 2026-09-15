@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alpine Ski Race Results</title>
+    <title>Central Lakes Cup</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <header class="site-header">
         <div class="header-content">
-            <h1 class="site-title">Alpine Ski Race Results</h1>
+            <h1 class="site-title">Central Lakes Cup</h1>
             <nav class="main-nav">
                 <a href="#" class="nav-link active" data-nav="home">Races</a>
                 <a href="#" class="nav-link" data-nav="standings">Season Standings</a>
@@ -17,12 +17,25 @@
         </div>
     </header>
 
-    <main id="app" class="main-content">
-        <!-- Content rendered by JavaScript -->
+    <main class="main-content">
+        <section id="season-panel" class="season-panel" aria-label="Season" hidden>
+            <div class="season-summary">
+                <p class="season-eyebrow">Central Lakes Cup <span id="season-status" class="season-status"></span></p>
+                <h2 id="season-title"></h2>
+                <p id="season-description"></p>
+            </div>
+            <div class="season-picker">
+                <label for="season-select">Choose a season</label>
+                <select id="season-select" aria-describedby="season-description"></select>
+            </div>
+        </section>
+        <div id="app" aria-busy="true">
+            <!-- Content rendered by JavaScript -->
+        </div>
     </main>
 
     <footer class="site-footer">
-        <p>Alpine Ski Race Results</p>
+        <p>Central Lakes Cup · Race results &amp; season standings</p>
     </footer>
 
     <script src="js/xmlParser.js"></script>

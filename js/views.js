@@ -3,6 +3,52 @@
  */
 
 const Views = {
+    escapeHTML(value) {
+        return String(value).replace(/[&<>"']/g, character => ({
+            '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
+        })[character]);
+    },
+
+    renderSeasonOptions(seasons) {
+        document.getElementById('season-select').innerHTML = seasons.map(season => `
+            <option value="${this.escapeHTML(season.id)}">${this.escapeHTML(season.label)}</option>
+        `).join('');
+    },
+
+    renderSeasonContext(season, defaultSeasonId) {
+        const isCurrent = season.id === defaultSeasonId;
+        document.getElementById('season-panel').hidden = false;
+        document.getElementById('season-select').value = season.id;
+        document.getElementById('season-title').textContent = season.label;
+        document.getElementById('season-status').textContent = isCurrent ? 'Current season' : 'Historical season';
+        document.getElementById('season-description').textContent = isCurrent
+            ? 'Races, athlete results, and standings for this season. Choose a past season to explore the history.'
+            : 'Explore this season’s races, athlete results, and final standings.';
+        document.title = `Central Lakes Cup | ${season.label}`;
+    },
+
+    renderEmptySeason(container, season, seasons, defaultSeasonId, standings = false) {
+        this._currentIndividuals = [];
+        const isCurrent = season.id === defaultSeasonId;
+        container.innerHTML = `
+            <div class="empty-state">
+                <p class="season-eyebrow">${this.escapeHTML(season.label)} season</p>
+                <h2>${standings ? 'Standings will appear after the first race' : 'No race results yet'}</h2>
+                <p>${isCurrent
+                    ? 'Results and standings will appear here as races are added.'
+                    : 'No race results have been posted for this season.'}</p>
+                ${seasons.length > 1 ? `
+                    <p class="history-prompt">Explore results from another season:</p>
+                    <div class="season-links">
+                        ${seasons.filter(item => item.id !== season.id).map(item => `
+                            <a href="?season=${encodeURIComponent(item.id)}" class="season-link">View ${this.escapeHTML(item.label)} results &rarr;</a>
+                        `).join('')}
+                    </div>
+                ` : ''}
+            </div>
+        `;
+    },
+
     /**
      * Format milliseconds to time string
      * @param {number} ms - Time in milliseconds
@@ -42,27 +88,21 @@ const Views = {
      * Render event list (homepage) with athlete search
      * Events may contain multiple race files (e.g., boys and girls on same date)
      */
-    renderEventList(events, container, searchResults = null) {
+    renderEventList(events, container, season, seasons, defaultSeasonId) {
         if (events.length === 0) {
-            container.innerHTML = `
-                <div class="empty-state">
-                    <h2>No Races Found</h2>
-                    <p>Add XML race files to the data/races folder to get started.</p>
-                </div>
-            `;
+            this.renderEmptySeason(container, season, seasons, defaultSeasonId);
             return;
         }
-
-        const searchSection = searchResults ? this.renderAthleteSearchResults(searchResults) : '';
 
         const html = `
             <div class="event-list">
                 <div class="search-section">
-                    <h3>Find an Athlete</h3>
-                    <input type="text" id="athlete-search" placeholder="Search by name..." class="search-input">
+                    <h3><label for="athlete-search">Find an Athlete</label></h3>
+                    <p class="search-season">Search results from ${this.escapeHTML(season.label)} only.</p>
+                    <input type="search" id="athlete-search" placeholder="Search by name..." class="search-input">
                 </div>
 
-                <div id="search-results">${searchSection}</div>
+                <div id="search-results" aria-live="polite"></div>
 
                 <h2>Race Events</h2>
                 <div class="event-cards">
@@ -334,7 +374,11 @@ const Views = {
      * Always split by gender - Boys and Girls shown in tabs
      * @param {Array} events - Array of event objects (grouped races)
      */
-    renderSeasonStandings(events, container, filters = {}) {
+    renderSeasonStandings(events, container, filters = {}, season, seasons, defaultSeasonId) {
+        if (events.length === 0) {
+            this.renderEmptySeason(container, season, seasons, defaultSeasonId, true);
+            return;
+        }
         const gender = filters.gender || 'M'; // Default to Boys
         const raceClass = filters.class || null;
         const page = filters.page || 1;
@@ -348,7 +392,7 @@ const Views = {
         const html = `
             <div class="season-standings">
                 <h2>Season Standings</h2>
-                <p class="standings-meta">${standings.eventCount} event${standings.eventCount !== 1 ? 's' : ''} (best ${standings.countedEvents} counted, 1 dropped)</p>
+                <p class="standings-meta">${standings.eventCount} event${standings.eventCount !== 1 ? 's' : ''}${standings.eventCount > 1 ? ` (best ${standings.countedEvents} counted; lowest result dropped only with participation in every event)` : ' (no results dropped)'}</p>
 
                 <div class="gender-tabs">
                     <button class="gender-tab ${gender === 'M' ? 'active' : ''}" data-gender="M">Boys</button>
@@ -529,7 +573,7 @@ const Views = {
         container.innerHTML = `
             <div class="error">
                 <h2>Error</h2>
-                <p>${message}</p>
+                <p>${this.escapeHTML(message)}</p>
                 <button onclick="location.reload()">Retry</button>
             </div>
         `;

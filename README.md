@@ -1,4 +1,4 @@
-# Alpine Ski Race Results
+# Central Lakes Cup
 
 A static website to display alpine ski race results from XML timing files, with team scoring based on Minnesota high school league rules.
 
@@ -7,6 +7,7 @@ A static website to display alpine ski race results from XML timing files, with 
 - **Individual Race Results**: View race results with times, places, and points
 - **Team Standings**: Automatic team scoring (top 4 finishers per team)
 - **Season Standings**: Cumulative points across all races
+- **Season History**: Separate races, athlete searches, and standings for each winter season
 - **Filtering**: Filter by gender (Boys/Girls) and class (Varsity/JV)
 - **Responsive Design**: Works on desktop, tablet, and mobile
 - **Print-Friendly**: Clean print layout for posting results
@@ -17,7 +18,55 @@ A static website to display alpine ski race results from XML timing files, with 
 - **Team Scoring**: Sum of top 4 finishers' points per team
 - **Separate Divisions**: Boys Varsity, Girls Varsity, Boys JV, Girls JV
 
-## Adding Race Results
+## Seasons and historical records
+
+The site opens **2026/2027** by default. Use **Choose a season** above
+the results to open **2025/2026** or any future season. The selection
+applies to race events, athlete searches, individual standings, and team standings.
+The season stays in the page address when you refresh or share a link:
+
+- Current season: `?season=2026-2027`
+- Historical season: `?season=2025-2026`
+
+Each season has its own race manifest. A winter spanning December and January
+is one season; the app does not split results by calendar year. Only the selected
+season's races count toward standings and dropped results.
+
+`data/seasons.json` lists the seasons and chooses the current one with
+`defaultSeason`. Its manifest paths are relative to `data/`. Each manifest's
+XML files live in a `races/` folder beside it.
+
+| Season | Manifest | XML folder |
+| --- | --- | --- |
+| 2025/2026 | `data/races.json` | `data/races/` |
+| 2026/2027 | `data/seasons/2026-2027/races.json` | `data/seasons/2026-2027/races/` |
+
+The 2025/2026 season's original manifest and all six XML files are retained unchanged.
+The 2026/2027 season starts with no races. Completed seasons remain available in the selector;
+keep their entries, manifests, and XML files when opening a new year. Archives
+use the existing scoring rules. If scoring rules change in a future year, version
+those rules by season as part of that change so historical totals stay consistent.
+
+### Opening 2027/2028 and later seasons
+
+1. Create `data/seasons/2027-2028/races.json` containing `{ "races": [] }`
+   and a neighboring `races/` folder.
+2. Add this entry at the beginning of the `seasons` array in `data/seasons.json`:
+
+   ```json
+   {
+       "id": "2027-2028",
+       "label": "2027/2028",
+       "manifest": "seasons/2027-2028/races.json"
+   }
+   ```
+
+3. Set `defaultSeason` to `"2027-2028"`. Keep all prior entries and files.
+
+No application code changes are needed to add another season. Season IDs must be
+unique, and `defaultSeason` must match an entry.
+
+## Adding race results to 2026/2027
 
 ### Step 1: Export XML from Split Second
 
@@ -25,18 +74,19 @@ After timing a race with Split Second software, export the results as XML.
 
 ### Step 2: Add the XML File
 
-1. Copy your XML file to the `data/races/` folder
-2. Give it a descriptive filename (e.g., `2024-01-15-buck-hill-gs.xml`)
+1. Copy your XML file to `data/seasons/2026-2027/races/`.
+2. Give it a descriptive filename (e.g., `2027-01-15-buck-hill-gs.xml`).
 
 ### Step 3: Update the Manifest
 
-Edit `data/races.json` and add your filename to the `races` array:
+Edit `data/seasons/2026-2027/races.json` and add your filename to the `races`
+array. Append it alongside any existing entries:
 
 ```json
 {
     "races": [
-        "2024-01-15-buck-hill-gs.xml",
-        "2024-01-22-afton-slalom.xml"
+        "2027-01-15-buck-hill-gs.xml",
+        "2027-01-22-afton-slalom.xml"
     ]
 }
 ```
@@ -46,7 +96,7 @@ Edit `data/races.json` and add your filename to the `races` array:
 If hosted on GitHub Pages:
 
 ```bash
-git add data/races/your-race.xml data/races.json
+git add data/seasons/2026-2027/
 git commit -m "Add race results from [date]"
 git push
 ```
@@ -118,14 +168,20 @@ To run locally, you need a web server (browsers block local file loading for sec
 
 Using Python:
 ```bash
-cd ski-results
-python3 -m http.server 8000
+cd central-lakes-cup
+python3 -m http.server 8000 --bind 127.0.0.1
 # Open http://localhost:8000
 ```
 
 Using Node.js:
 ```bash
-npx serve ski-results
+npx serve central-lakes-cup
+```
+
+Run the season regression checks with Node.js (no dependencies to install):
+
+```bash
+node --test tests/seasons.test.js
 ```
 
 ## Customization
@@ -154,7 +210,7 @@ const topN = 4; // Change this number
 ## File Structure
 
 ```
-ski-results/
+central-lakes-cup/
 ├── index.html              # Main page
 ├── css/
 │   └── styles.css          # All styling
@@ -164,9 +220,16 @@ ski-results/
 │   ├── scoring.js          # Scoring calculations
 │   └── views.js            # UI rendering
 ├── data/
-│   ├── races.json          # Race file manifest
-│   └── races/              # XML race files
-│       └── *.xml
+│   ├── seasons.json        # Season catalog and default season
+│   ├── races.json          # Preserved 2025/2026 manifest
+│   ├── races/              # Preserved 2025/2026 XML files
+│   │   └── *.xml
+│   └── seasons/
+│       └── 2026-2027/
+│           ├── races.json  # 2026/2027 manifest
+│           └── races/      # 2026/2027 XML files
+├── tests/
+│   └── seasons.test.js     # Season isolation and loading regression checks
 └── README.md
 ```
 
@@ -174,9 +237,12 @@ ski-results/
 
 ### Race not showing up?
 
-1. Check that the filename is listed in `data/races.json`
+1. Choose the correct season and check its manifest for the exact filename.
 2. Verify the XML file is valid (no syntax errors)
 3. Check browser console for error messages
+
+If any listed race cannot be loaded or parsed, the site shows an error instead
+of incomplete standings. Correct that season's file or manifest and retry.
 
 ### Scores seem wrong?
 

@@ -4,8 +4,15 @@
 
 const App = {
     races: [],
+    events: [],
+    seasons: [],
+    selectedSeason: null,
+    defaultSeasonId: null,
+    seasonLoadId: 0,
+    loadingSeason: false,
+    seasonError: null,
     currentView: 'home',
-    currentRaceIndex: null,
+    currentEventIndex: null,
     filters: {
         gender: 'M', // Default to Boys - genders always shown separately
         class: null,
@@ -19,61 +26,128 @@ const App = {
      */
     async init() {
         this.container = document.getElementById('app');
+        this.loadingSeason = true;
         this.setupNavigation();
 
         Views.renderLoading(this.container);
 
         try {
-            await this.loadRaces();
-            this.navigate('home');
+            await this.loadSeasons();
+            await this.selectSeason(this.seasonFromURL(), { historyMode: 'replace' });
         } catch (error) {
             console.error('Failed to initialize app:', error);
-            Views.renderError(this.container, 'Failed to load race data. ' + error.message);
+            this.loadingSeason = false;
+            this.seasonError = 'Season information could not be loaded. Please try again.';
+            this.container.setAttribute('aria-busy', 'false');
+            Views.renderError(this.container, this.seasonError);
         }
     },
 
     /**
-     * Load all races from the manifest
+     * Seasons explicitly own their race manifests; calendar years never split a winter.
      */
-    async loadRaces() {
-        // Fetch the race manifest
-        const manifestResponse = await fetch('data/races.json');
+    async loadSeasons() {
+        const response = await fetch('data/seasons.json', { cache: 'no-cache' });
+        if (!response.ok) throw new Error('Could not load seasons.json');
+        const catalog = await response.json();
+        const seasons = catalog.seasons;
+        if (!Array.isArray(seasons) || seasons.length === 0 ||
+            seasons.some(season => !season || typeof season.id !== 'string' || !season.id ||
+                typeof season.label !== 'string' || !season.label ||
+                typeof season.manifest !== 'string' || !season.manifest) ||
+            new Set(seasons.map(season => season.id)).size !== seasons.length ||
+            !seasons.some(season => season.id === catalog.defaultSeason)) {
+            throw new Error('Invalid season catalog');
+        }
+        this.seasons = seasons;
+        this.defaultSeasonId = catalog.defaultSeason;
+        Views.renderSeasonOptions(seasons);
+    },
+
+    seasonFromURL() {
+        const requested = new URL(window.location.href).searchParams.get('season');
+        return this.seasons.some(season => season.id === requested) ? requested : this.defaultSeasonId;
+    },
+
+    /**
+     * Replace all season-scoped data together. A late request cannot overwrite a newer selection.
+     */
+    async selectSeason(seasonId, { historyMode = 'push' } = {}) {
+        const season = this.seasons.find(item => item.id === seasonId);
+        if (!season) return;
+
+        const loadId = ++this.seasonLoadId;
+        this.selectedSeason = season;
+        this.loadingSeason = true;
+        this.seasonError = null;
+        this.races = [];
+        this.events = [];
+        this.currentEventIndex = null;
+        this.currentView = this.currentView === 'standings' ? 'standings' : 'home';
+        this.filters.team = null;
+        this.filters.page = 1;
+        Views._currentIndividuals = [];
+        Views.renderSeasonContext(season, this.defaultSeasonId);
+
+        const url = new URL(window.location.href);
+        url.searchParams.set('season', season.id);
+        if (historyMode === 'replace') {
+            window.history.replaceState(null, '', url);
+        } else if (historyMode === 'push' && url.href !== window.location.href) {
+            window.history.pushState(null, '', url);
+        }
+        this.container.setAttribute('aria-busy', 'true');
+        this.navigate(this.currentView);
+
+        try {
+            const races = await this.loadRaces(season);
+            if (loadId !== this.seasonLoadId) return;
+            this.races = races;
+            this.events = this.groupRacesIntoEvents(races);
+        } catch (error) {
+            if (loadId !== this.seasonLoadId) return;
+            console.error(`Failed to load season ${season.id}:`, error);
+            this.seasonError = `Results for ${season.label} could not be loaded completely. Please retry or choose another season.`;
+        }
+        if (loadId !== this.seasonLoadId) return;
+        this.loadingSeason = false;
+        this.container.setAttribute('aria-busy', 'false');
+        this.navigate(this.currentView);
+    },
+
+    /**
+     * Race files live in the races/ folder next to that season's manifest.
+     * Reject incomplete loads so partial totals are never presented as final standings.
+     */
+    async loadRaces(season) {
+        const manifestURL = new URL(`data/${season.manifest}`, document.baseURI);
+        const manifestResponse = await fetch(manifestURL, { cache: 'no-cache' });
         if (!manifestResponse.ok) {
-            throw new Error('Could not load races.json manifest');
+            throw new Error(`Could not load ${season.manifest}`);
         }
 
         const manifest = await manifestResponse.json();
+        if (!Array.isArray(manifest.races) ||
+            manifest.races.some(file => typeof file !== 'string' || !file.trim()) ||
+            new Set(manifest.races).size !== manifest.races.length) {
+            throw new Error('Invalid race manifest');
+        }
 
-        // Fetch and parse each race file
         const racePromises = manifest.races.map(async (raceFile) => {
-            try {
-                const response = await fetch(`data/races/${encodeURIComponent(raceFile)}`);
-                if (!response.ok) {
-                    console.warn(`Could not load race file: ${raceFile}`);
-                    return null;
-                }
-                const xmlText = await response.text();
-                const raceData = XMLParser.parseRace(xmlText);
-                raceData.filename = raceFile;
-                return raceData;
-            } catch (error) {
-                console.warn(`Error parsing race file ${raceFile}:`, error);
-                return null;
-            }
+            const raceURL = new URL(`races/${encodeURIComponent(raceFile)}`, manifestURL);
+            const response = await fetch(raceURL);
+            if (!response.ok) throw new Error(`Could not load race file: ${raceFile}`);
+            const raceData = XMLParser.parseRace(await response.text());
+            raceData.filename = raceFile;
+            return raceData;
         });
 
-        const results = await Promise.all(racePromises);
-        this.races = results.filter(r => r !== null);
-
-        // Sort races by date (newest first)
-        this.races.sort((a, b) => {
+        const races = await Promise.all(racePromises);
+        return races.sort((a, b) => {
             const dateA = new Date(a.header.date || 0);
             const dateB = new Date(b.header.date || 0);
             return dateB - dateA;
         });
-
-        // Group races by date into events
-        this.events = this.groupRacesIntoEvents(this.races);
     },
 
     /**
@@ -148,6 +222,15 @@ const App = {
      * Set up navigation event listeners
      */
     setupNavigation() {
+        document.getElementById('season-select').addEventListener('change', (e) => {
+            this.selectSeason(e.target.value);
+        });
+        window.addEventListener('popstate', () => {
+            if (this.seasons.length) {
+                this.selectSeason(this.seasonFromURL(), { historyMode: 'replace' });
+            }
+        });
+
         // Nav links
         document.querySelectorAll('[data-nav]').forEach(link => {
             link.addEventListener('click', (e) => {
@@ -358,18 +441,26 @@ const App = {
     navigate(view) {
         this.currentView = view;
         this.updateNavActive(view);
+        if (this.loadingSeason) {
+            Views.renderLoading(this.container);
+            return;
+        }
+        if (this.seasonError) {
+            Views.renderError(this.container, this.seasonError);
+            return;
+        }
 
         switch (view) {
             case 'home':
                 this.currentEventIndex = null;
-                Views.renderEventList(this.events, this.container);
+                Views.renderEventList(this.events, this.container, this.selectedSeason, this.seasons, this.defaultSeasonId);
                 break;
             case 'standings':
                 this.currentEventIndex = null;
-                Views.renderSeasonStandings(this.events, this.container, this.filters);
+                Views.renderSeasonStandings(this.events, this.container, this.filters, this.selectedSeason, this.seasons, this.defaultSeasonId);
                 break;
             default:
-                Views.renderEventList(this.events, this.container);
+                Views.renderEventList(this.events, this.container, this.selectedSeason, this.seasons, this.defaultSeasonId);
         }
     },
 
@@ -404,7 +495,7 @@ const App = {
         if (this.currentView === 'event' && this.currentEventIndex !== null) {
             this.showEvent(this.currentEventIndex);
         } else if (this.currentView === 'standings') {
-            Views.renderSeasonStandings(this.events, this.container, this.filters);
+            this.navigate('standings');
         }
     },
 

@@ -1,0 +1,15 @@
+{
+    "defaultSeason": "2026-2027",
+    "seasons": [
+        {
+            "id": "2026-2027",
+            "label": "2026/2027",
+            "manifest": "seasons/2026-2027/races.json"
+        },
+        {
+            "id": "2025-2026",
+            "label": "2025/2026",
+            "manifest": "races.json"
+        }
+    ]
+}

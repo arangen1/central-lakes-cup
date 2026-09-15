@@ -97,6 +97,107 @@ body {
     padding: 2rem 1rem;
 }
 
+/* Season selection stays visible on races, standings, and printed results. */
+.season-panel:not([hidden]) {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    background: var(--card-background);
+    border: 1px solid var(--border-color);
+    border-top: 4px solid var(--primary-color);
+    border-radius: var(--radius);
+}
+
+.season-summary {
+    max-width: 650px;
+}
+
+.season-eyebrow {
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: var(--text-secondary);
+    margin-bottom: 0.5rem;
+}
+
+.season-status {
+    display: inline-block;
+    padding: 0.125rem 0.5rem;
+    margin-left: 0.5rem;
+    background: #ebf4ff;
+    color: var(--primary-color);
+    border-radius: var(--radius-sm);
+}
+
+.season-summary h2 {
+    color: var(--primary-color);
+    margin-bottom: 0.35rem;
+}
+
+#season-description, .search-season {
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+}
+
+.season-picker {
+    flex-shrink: 0;
+}
+
+.season-picker label {
+    display: block;
+    font-size: 0.875rem;
+    font-weight: 600;
+    margin-bottom: 0.4rem;
+}
+
+.season-picker select {
+    max-width: 100%;
+    min-height: 44px;
+    padding: 0.65rem;
+    font: inherit;
+    color: var(--primary-color);
+    background: white;
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-sm);
+}
+
+.season-picker select:focus-visible, .season-link:focus-visible {
+    outline: 3px solid var(--secondary-color);
+    outline-offset: 3px;
+}
+
+.history-prompt {
+    margin-top: 1.75rem;
+    color: var(--text-secondary);
+}
+
+.season-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.75rem;
+    margin-top: 0.75rem;
+}
+
+.season-link {
+    display: inline-block;
+    padding: 0.7rem 1rem;
+    background: var(--primary-color);
+    color: white;
+    text-decoration: none;
+    border-radius: var(--radius-sm);
+}
+
+.season-link:hover {
+    background: var(--primary-light);
+}
+
+.search-season {
+    margin-bottom: 0.75rem;
+}
+
 /* Loading State */
 .loading {
     display: flex;
@@ -620,6 +721,11 @@ body {
 
 /* Responsive Design */
 @media (max-width: 900px) {
+    .season-panel:not([hidden]) {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
     .results-layout {
         grid-template-columns: 1fr;
     }
@@ -630,6 +736,10 @@ body {
 }
 
 @media (max-width: 600px) {
+    .season-picker, .season-picker select {
+        width: 100%;
+    }
+
     .header-content {
         flex-direction: column;
         align-items: flex-start;
@@ -780,7 +890,8 @@ body {
 
 /* Print Styles */
 @media print {
-    .site-header, .site-footer, .filters, .back-btn, .standings-tabs, .pagination-controls {
+    .site-header, .site-footer, .filters, .back-btn, .standings-tabs, .pagination-controls,
+    .season-picker, #season-description, .season-status, .season-links, .history-prompt {
         display: none !important;
     }
 
